@@ -187,6 +187,7 @@
     </Compile>
     <Compile Include="Controllers\BookingController.cs" />
     <Compile Include="Controllers\CalculationController.cs" />
+    <Compile Include="Controllers\DestinationsController.cs" />
     <Compile Include="Controllers\EmpController.cs" />
     <Compile Include="Controllers\InvoiceController.cs" />
     <Compile Include="Controllers\RatemasterController.cs" />
