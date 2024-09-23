@@ -1,0 +1,490 @@
+D:\BALA\EmpBilling\EmpBilling\bin\ApplicationInsights.config
+D:\BALA\EmpBilling\EmpBilling\bin\EmpBilling.dll.config
+D:\BALA\EmpBilling\EmpBilling\bin\EmpBilling.dll
+D:\BALA\EmpBilling\EmpBilling\bin\EmpBilling.pdb
+D:\BALA\EmpBilling\EmpBilling\bin\Antlr3.Runtime.dll
+D:\BALA\EmpBilling\EmpBilling\bin\EntityFramework.dll
+D:\BALA\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+D:\BALA\EmpBilling\EmpBilling\bin\Newtonsoft.Json.dll
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Helpers.dll
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Mvc.dll
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Optimization.dll
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Razor.dll
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.WebPages.dll
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.dll
+D:\BALA\EmpBilling\EmpBilling\bin\WebGrease.dll
+D:\BALA\EmpBilling\EmpBilling\bin\EntityFramework.xml
+D:\BALA\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.xml
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Helpers.xml
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Mvc.xml
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Optimization.xml
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.Razor.xml
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.WebPages.xml
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+D:\BALA\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.xml
+D:\BALA\EmpBilling\EmpBilling\bin\Antlr3.Runtime.pdb
+D:\BALA\EmpBilling\EmpBilling\bin\Newtonsoft.Json.xml
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+D:\BALA\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.xml
+D:\BALA\EmpBilling\EmpBilling\obj\Release\EmpBilling.csprojResolveAssemblyReference.cache
+D:\BALA\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+D:\BALA\EmpBilling\EmpBilling\obj\Release\EmpBilling.dll
+D:\BALA\EmpBilling\EmpBilling\obj\Release\EmpBilling.pdb
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\ApplicationInsights.config
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\EmpBilling.dll.config
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\EmpBilling.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\EmpBilling.pdb
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Antlr3.Runtime.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\EntityFramework.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Newtonsoft.Json.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Helpers.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Mvc.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Optimization.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Razor.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.WebPages.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\WebGrease.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\EntityFramework.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Helpers.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Mvc.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Optimization.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.Razor.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.WebPages.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Antlr3.Runtime.pdb
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Newtonsoft.Json.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.xml
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\obj\Release\EmpBilling.csprojAssemblyReference.cache
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CopyComplete
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\obj\Release\EmpBilling.dll
+C:\Users\santosh\Desktop\EmpBilling\EmpBilling\obj\Release\EmpBilling.pdb
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\ApplicationInsights.config
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\EmpBilling.dll.config
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\EmpBilling.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\EmpBilling.pdb
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Antlr3.Runtime.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\EntityFramework.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Newtonsoft.Json.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Helpers.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Mvc.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Optimization.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Razor.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\WebGrease.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\EntityFramework.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Helpers.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Mvc.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Optimization.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.Razor.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Antlr3.Runtime.pdb
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Newtonsoft.Json.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.xml
+E:\BALA\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.csprojAssemblyReference.cache
+E:\BALA\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+E:\BALA\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CopyComplete
+E:\BALA\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.dll
+E:\BALA\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.pdb
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\ApplicationInsights.config
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\EmpBilling.dll.config
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\EmpBilling.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\EmpBilling.pdb
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Antlr3.Runtime.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\ClosedXML.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\DocumentFormat.OpenXml.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\EntityFramework.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\ExcelNumberFormat.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\FastMember.Signed.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Newtonsoft.Json.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.IO.FileSystem.Primitives.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.IO.Packaging.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Helpers.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Mvc.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Optimization.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Razor.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\WebGrease.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\ClosedXML.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\DocumentFormat.OpenXml.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\EntityFramework.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\ExcelNumberFormat.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Helpers.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Mvc.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Optimization.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.Razor.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Antlr3.Runtime.pdb
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Newtonsoft.Json.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.xml
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.csprojAssemblyReference.cache
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CopyComplete
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.dll
+E:\BALA\Live Projects\Globex\EmpBilling\EmpBilling\obj\Release\EmpBilling.pdb
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\ApplicationInsights.config
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\EmpBilling.dll.config
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\EmpBilling.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\EmpBilling.pdb
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Antlr3.Runtime.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\ClosedXML.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\DocumentFormat.OpenXml.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\EntityFramework.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\ExcelNumberFormat.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\FastMember.Signed.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Newtonsoft.Json.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.IO.FileSystem.Primitives.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.IO.Packaging.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Helpers.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Mvc.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Optimization.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Razor.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\WebGrease.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\ClosedXML.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\DocumentFormat.OpenXml.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\EntityFramework.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\ExcelNumberFormat.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Helpers.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Mvc.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Optimization.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.Razor.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Antlr3.Runtime.pdb
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Newtonsoft.Json.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.xml
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.csprojAssemblyReference.cache
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CopyComplete
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.dll
+E:\Prajkta\live projects\mexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.pdb
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\ApplicationInsights.config
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EmpBilling.dll.config
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EmpBilling.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EmpBilling.pdb
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Antlr3.Runtime.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\ClosedXML.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\DocumentFormat.OpenXml.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EntityFramework.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EPPlus.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\ExcelNumberFormat.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\FastMember.Signed.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Newtonsoft.Json.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.IO.FileSystem.Primitives.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.IO.Packaging.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Helpers.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Mvc.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Optimization.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Razor.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\WebGrease.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\ClosedXML.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\DocumentFormat.OpenXml.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EntityFramework.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EntityFramework.SqlServer.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\EPPlus.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\ExcelNumberFormat.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Helpers.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Mvc.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Optimization.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.Razor.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\System.Web.WebPages.Razor.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Antlr3.Runtime.pdb
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Newtonsoft.Json.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\bin\Microsoft.AI.Web.xml
+D:\live projects\veerexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.csprojAssemblyReference.cache
+D:\live projects\veerexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+D:\live projects\veerexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.csproj.CopyComplete
+D:\live projects\veerexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.dll
+D:\live projects\veerexpress\EmpBilling\EmpBilling\obj\Release\EmpBilling.pdb
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\ApplicationInsights.config
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EmpBilling.dll.config
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EmpBilling.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EmpBilling.pdb
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Antlr3.Runtime.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\ClosedXML.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\DocumentFormat.OpenXml.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EntityFramework.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EntityFramework.SqlServer.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EPPlus.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\ExcelNumberFormat.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\FastMember.Signed.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.Web.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Newtonsoft.Json.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.IO.Packaging.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Helpers.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Mvc.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Optimization.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Razor.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.WebPages.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.WebPages.Razor.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\WebGrease.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\ClosedXML.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\DocumentFormat.OpenXml.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EntityFramework.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EntityFramework.SqlServer.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\EPPlus.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\ExcelNumberFormat.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Helpers.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Mvc.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Optimization.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.Razor.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.WebPages.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\System.Web.WebPages.Razor.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Antlr3.Runtime.pdb
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Newtonsoft.Json.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\bin\Microsoft.AI.Web.xml
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\obj\Release\EmpBilling.csproj.AssemblyReference.cache
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\obj\Release\EmpBilling.csproj.CopyComplete
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\obj\Release\EmpBilling.dll
+D:\LiveProject\New DTDC Projects\Quest Courier Cargo\Billing\EmpBilling\obj\Release\EmpBilling.pdb
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\ApplicationInsights.config
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EmpBilling.dll.config
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EmpBilling.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EmpBilling.pdb
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Antlr3.Runtime.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\ClosedXML.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\DocumentFormat.OpenXml.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EntityFramework.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EntityFramework.SqlServer.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EPPlus.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\ExcelNumberFormat.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\FastMember.Signed.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.Web.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Newtonsoft.Json.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.IO.Packaging.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Helpers.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Mvc.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Optimization.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Razor.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.WebPages.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.WebPages.Razor.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\WebGrease.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\ClosedXML.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\DocumentFormat.OpenXml.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EntityFramework.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EntityFramework.SqlServer.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\EPPlus.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\ExcelNumberFormat.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Helpers.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Mvc.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Optimization.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.Razor.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.WebPages.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\System.Web.WebPages.Razor.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Antlr3.Runtime.pdb
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Newtonsoft.Json.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\bin\Microsoft.AI.Web.xml
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\obj\Release\EmpBilling.csproj.AssemblyReference.cache
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\obj\Release\EmpBilling.csproj.CopyComplete
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\obj\Release\EmpBilling.dll
+D:\LiveProject\New DTDC Projects\VB EXPRESS PF2137\Billing\EmpBilling\obj\Release\EmpBilling.pdb
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\ApplicationInsights.config
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EmpBilling.dll.config
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EmpBilling.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EmpBilling.pdb
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Antlr3.Runtime.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\ClosedXML.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\DocumentFormat.OpenXml.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EntityFramework.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EntityFramework.SqlServer.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EPPlus.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\ExcelNumberFormat.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\FastMember.Signed.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.Agent.Intercept.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.DependencyCollector.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.Web.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.WindowsServer.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.ApplicationInsights.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.ReportViewer.WebForms.DLL
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.Web.Infrastructure.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Newtonsoft.Json.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.IO.Packaging.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Helpers.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Mvc.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Optimization.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Razor.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.WebPages.Deployment.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.WebPages.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.WebPages.Razor.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\WebGrease.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\ClosedXML.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\DocumentFormat.OpenXml.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EntityFramework.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EntityFramework.SqlServer.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\EPPlus.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\ExcelNumberFormat.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Helpers.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Mvc.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Optimization.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.Razor.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.WebPages.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.WebPages.Deployment.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\System.Web.WebPages.Razor.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Antlr3.Runtime.pdb
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Newtonsoft.Json.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.ApplicationInsights.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.DependencyCollector.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.WindowsServer.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\bin\Microsoft.AI.Web.xml
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\obj\Release\EmpBilling.csproj.AssemblyReference.cache
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\obj\Release\EmpBilling.csproj.CoreCompileInputs.cache
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\obj\Release\EmpBilling.csproj.Up2Date
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\obj\Release\EmpBilling.dll
+D:\LiveProject\New DTDC Projects\HRALogostic\Billing\EmpBilling\obj\Release\EmpBilling.pdb

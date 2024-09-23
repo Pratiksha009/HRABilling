@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6280b09777cd404592ad871ffca260f2" Name="Diagram1">
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.addcodamount" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.addtopayamount" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Admin" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Cash" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Cheque" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Company" Width="1.5" PointX="5.25" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Complaint" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.CreditNote" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.deliverydata" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Destination" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Dtdc_Ecommerce" Width="1.5" PointX="7.5" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Dtdc_Ptp" Width="1.5" PointX="10.5" PointY="65" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.dtdcPlu" Width="1.5" PointX="7.5" PointY="71.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Employee" Width="1.5" PointX="5.25" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Expense" Width="1.5" PointX="10.5" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.ExpiredStationary" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.express_cargo" Width="1.5" PointX="10.5" PointY="70.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.FirmDetail" Width="1.5" PointX="0.75" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Franchisee" Width="1.5" PointX="3" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Holiday" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Holiday1" Width="1.5" PointX="7.5" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Invoice" Width="1.5" PointX="3" PointY="69.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Issue" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.MISData" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.NEFT" Width="1.5" PointX="6.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Nondox" Width="1.5" PointX="13.5" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Notification" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Other_Service" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Payment" Width="1.5" PointX="7.5" PointY="76.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.popupimage" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Priority" Width="1.5" PointX="10.5" PointY="58.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.RaiseIssue" Width="1.5" PointX="8.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Rate7and7DSurface" Width="1.5" PointX="7.5" PointY="57.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Ratem" Width="1.5" PointX="13.5" PointY="71.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Receipt_details" Width="1.5" PointX="16.5" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.RedeemOtp" Width="1.5" PointX="10.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.ReplyAdmin" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Saving" Width="1.5" PointX="10.5" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.sectorName" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Sector" Width="1.5" PointX="5.25" PointY="84.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Sendmessage" Width="1.5" PointX="13.5" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Service_list" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.singleinvoiceconsignment" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Stationary" Width="1.5" PointX="12.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.Transaction" Width="1.5" PointX="7.5" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.User" Width="1.5" PointX="5.25" PointY="91" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.wallet_History" Width="1.5" PointX="7.5" PointY="80.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.WalletPoint" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="db_a92afa_hralogisticModel.TransactionView" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Dtdc_Ecom__Compa__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Dtdc_Ecommerce__Company___0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Nondox__Company___3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Nondox__Company___3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Priority__Compan__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Priority__Compan__41EDCAC5" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Rate7and7__Compa__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Rate7and7__Compa__45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Ratem__Company_i__47A6A41B" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Ratem__Company_i__489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_company" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_nond" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_ptp" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_ptpexp" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_Tansaction" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__ReplyAdmi__Compl__4C6B5938" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__ReplyAdmi__Compl__4D5F7D71" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_Ecom" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Dtdc_Ptp__Sector__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Dtdc_Ptp__Sector__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__dtdcPlus__Sector__2CF2ADDF" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__dtdcPlus__Sector__2DE6D218" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.Emp_Fk" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_emexp" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_exp" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__express_c__Secto__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__express_c__Secto__339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Franchise__Firm___3587F3E0" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Franchise__Firm___367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Invoice__Firm_Id__395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Invoice__Firm_Id__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_emprecept" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_Pay" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_Sav" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_sect" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_Tansaction1" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.sendmasg_Fk" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.sendwall_Fk" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.User_Fk" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Holidays__User_I__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Holidays__User_I__3864608B" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_nod" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_emppay" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Priority__Sector__42E1EEFE" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.FK__Priority__Sector__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_Surface" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_rateamaster" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_rece" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_empsav" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_empmes" ManuallyRouted="false" />
+        <AssociationConnector Association="db_a92afa_hralogisticModel.fk_emeall" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

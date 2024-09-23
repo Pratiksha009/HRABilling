@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DtdcBillingModelStoreContainer" CdmEntityContainer="DtdcBillingEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="DtdcBillingModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Contact_no" ColumnName="Contact_no" />
+          <ScalarProperty Name="PF_Code" ColumnName="PF_Code" />
+          <ScalarProperty Name="Password_U" ColumnName="Password_U" />
+          <ScalarProperty Name="Usertype" ColumnName="Usertype" />
+          <ScalarProperty Name="Datetime_User" ColumnName="Datetime_User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dtdc_Ptp">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Dtdc_Ptp">
+        <MappingFragment StoreEntitySet="Dtdc_Ptp">
+          <ScalarProperty Name="Sector_Id" ColumnName="Sector_Id" />
+          <ScalarProperty Name="Company_id" ColumnName="Company_id" />
+          <ScalarProperty Name="P2add100kg" ColumnName="P2add100kg" />
+          <ScalarProperty Name="P2U50to100" ColumnName="P2U50to100" />
+          <ScalarProperty Name="P2U25to50" ColumnName="P2U25to50" />
+          <ScalarProperty Name="P2U10to25kg" ColumnName="P2U10to25kg" />
+          <ScalarProperty Name="P2Add500gm" ColumnName="P2Add500gm" />
+          <ScalarProperty Name="P2Upto500gm" ColumnName="P2Upto500gm" />
+          <ScalarProperty Name="Padd100kg" ColumnName="Padd100kg" />
+          <ScalarProperty Name="PU50to100" ColumnName="PU50to100" />
+          <ScalarProperty Name="PU25to50" ColumnName="PU25to50" />
+          <ScalarProperty Name="PU10to25kg" ColumnName="PU10to25kg" />
+          <ScalarProperty Name="PAdd500gm" ColumnName="PAdd500gm" />
+          <ScalarProperty Name="PUpto500gm" ColumnName="PUpto500gm" />
+          <ScalarProperty Name="dest" ColumnName="dest" />
+          <ScalarProperty Name="ptp_id" ColumnName="ptp_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dtdcPlus">
+      <EntityTypeMapping TypeName="DtdcBillingModel.dtdcPlu">
+        <MappingFragment StoreEntitySet="dtdcPlus">
+          <ScalarProperty Name="CashCounterPlus" ColumnName="CashCounterPlus" />
+          <ScalarProperty Name="Sector_Id" ColumnName="Sector_Id" />
+          <ScalarProperty Name="Add500gm" ColumnName="Add500gm" />
+          <ScalarProperty Name="Company_id" ColumnName="Company_id" />
+          <ScalarProperty Name="go99" ColumnName="go99" />
+          <ScalarProperty Name="go149" ColumnName="go149" />
+          <ScalarProperty Name="add100kg" ColumnName="add100kg" />
+          <ScalarProperty Name="U50to100" ColumnName="U50to100" />
+          <ScalarProperty Name="U25to50" ColumnName="U25to50" />
+          <ScalarProperty Name="U10to25kg" ColumnName="U10to25kg" />
+          <ScalarProperty Name="Upto500gm" ColumnName="Upto500gm" />
+          <ScalarProperty Name="destination" ColumnName="destination" />
+          <ScalarProperty Name="plus_id" ColumnName="plus_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="express_cargo">
+      <EntityTypeMapping TypeName="DtdcBillingModel.express_cargo">
+        <MappingFragment StoreEntitySet="express_cargo">
+          <ScalarProperty Name="CashCounterExpr" ColumnName="CashCounterExpr" />
+          <ScalarProperty Name="Sector_Id" ColumnName="Sector_Id" />
+          <ScalarProperty Name="Company_id" ColumnName="Company_id" />
+          <ScalarProperty Name="Upto" ColumnName="Upto" />
+          <ScalarProperty Name="Exslab2" ColumnName="Exslab2" />
+          <ScalarProperty Name="Exslab1" ColumnName="Exslab1" />
+          <ScalarProperty Name="Exp_Id" ColumnName="Exp_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nondoxes">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Nondox">
+        <MappingFragment StoreEntitySet="Nondox">
+          <ScalarProperty Name="CashCounterNon" ColumnName="CashCounterNon" />
+          <ScalarProperty Name="NoOfSlabS" ColumnName="NoOfSlabS" />
+          <ScalarProperty Name="NoOfSlabN" ColumnName="NoOfSlabN" />
+          <ScalarProperty Name="Company_id" ColumnName="Company_id" />
+          <ScalarProperty Name="Sector_Id" ColumnName="Sector_Id" />
+          <ScalarProperty Name="SUptosl4" ColumnName="SUptosl4" />
+          <ScalarProperty Name="SUptosl3" ColumnName="SUptosl3" />
+          <ScalarProperty Name="SUptosl2" ColumnName="SUptosl2" />
+          <ScalarProperty Name="SUptosl1" ColumnName="SUptosl1" />
+          <ScalarProperty Name="AUptosl4" ColumnName="AUptosl4" />
+          <ScalarProperty Name="AUptosl3" ColumnName="AUptosl3" />
+          <ScalarProperty Name="AUptosl2" ColumnName="AUptosl2" />
+          <ScalarProperty Name="AUptosl1" ColumnName="AUptosl1" />
+          <ScalarProperty Name="Sslab4" ColumnName="Sslab4" />
+          <ScalarProperty Name="Sslab3" ColumnName="Sslab3" />
+          <ScalarProperty Name="Sslab2" ColumnName="Sslab2" />
+          <ScalarProperty Name="Sslab1" ColumnName="Sslab1" />
+          <ScalarProperty Name="Aslab4" ColumnName="Aslab4" />
+          <ScalarProperty Name="Aslab3" ColumnName="Aslab3" />
+          <ScalarProperty Name="Aslab2" ColumnName="Aslab2" />
+          <ScalarProperty Name="Aslab1" ColumnName="Aslab1" />
+          <ScalarProperty Name="Non_ID" ColumnName="Non_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ratems">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Ratem">
+        <MappingFragment StoreEntitySet="Ratem">
+          <ScalarProperty Name="CashCounter" ColumnName="CashCounter" />
+          <ScalarProperty Name="NoOfSlab" ColumnName="NoOfSlab" />
+          <ScalarProperty Name="Company_id" ColumnName="Company_id" />
+          <ScalarProperty Name="Uptosl4" ColumnName="Uptosl4" />
+          <ScalarProperty Name="Uptosl3" ColumnName="Uptosl3" />
+          <ScalarProperty Name="Uptosl2" ColumnName="Uptosl2" />
+          <ScalarProperty Name="Uptosl1" ColumnName="Uptosl1" />
+          <ScalarProperty Name="Sector_Id" ColumnName="Sector_Id" />
+          <ScalarProperty Name="slab4" ColumnName="slab4" />
+          <ScalarProperty Name="slab3" ColumnName="slab3" />
+          <ScalarProperty Name="slab2" ColumnName="slab2" />
+          <ScalarProperty Name="slab1" ColumnName="slab1" />
+          <ScalarProperty Name="Rete_Id" ColumnName="Rete_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Franchisees">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Franchisee">
+        <MappingFragment StoreEntitySet="Franchisee">
+          <ScalarProperty Name="Pan_No" ColumnName="Pan_No" />
+          <ScalarProperty Name="Datetime_Fr" ColumnName="Datetime_Fr" />
+          <ScalarProperty Name="Branch_Area" ColumnName="Branch_Area" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="Franchisee_Name" ColumnName="Franchisee_Name" />
+          <ScalarProperty Name="GstNo" ColumnName="GstNo" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="OwnerName" ColumnName="OwnerName" />
+          <ScalarProperty Name="F_Address" ColumnName="F_Address" />
+          <ScalarProperty Name="PF_Code" ColumnName="PF_Code" />
+          <ScalarProperty Name="F_Id" ColumnName="F_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sectors">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Sector">
+        <MappingFragment StoreEntitySet="Sectors">
+          <ScalarProperty Name="Pincode_values" ColumnName="Pincode_values" />
+          <ScalarProperty Name="Pf_code" ColumnName="Pf_code" />
+          <ScalarProperty Name="Sector_Name" ColumnName="Sector_Name" />
+          <ScalarProperty Name="Sector_Id" ColumnName="Sector_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Destinations">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Destination">
+        <MappingFragment StoreEntitySet="Destination">
+          <ScalarProperty Name="State_" ColumnName="State_" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Dest_Id" ColumnName="Dest_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Companies">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Company">
+        <MappingFragment StoreEntitySet="Company">
+          <ScalarProperty Name="N_Docket" ColumnName="N_Docket" />
+          <ScalarProperty Name="I_Docket" ColumnName="I_Docket" />
+          <ScalarProperty Name="V_Docket" ColumnName="V_Docket" />
+          <ScalarProperty Name="E_Docket" ColumnName="E_Docket" />
+          <ScalarProperty Name="P_Docket" ColumnName="P_Docket" />
+          <ScalarProperty Name="D_Docket" ColumnName="D_Docket" />
+          <ScalarProperty Name="Royalty_Charges" ColumnName="Royalty_Charges" />
+          <ScalarProperty Name="Pan_No" ColumnName="Pan_No" />
+          <ScalarProperty Name="Gst_No" ColumnName="Gst_No" />
+          <ScalarProperty Name="Datetime_Comp" ColumnName="Datetime_Comp" />
+          <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+          <ScalarProperty Name="Company_Address" ColumnName="Company_Address" />
+          <ScalarProperty Name="Pf_code" ColumnName="Pf_code" />
+          <ScalarProperty Name="Gec_Fuel_Sur_Charge" ColumnName="Gec_Fuel_Sur_Charge" />
+          <ScalarProperty Name="Cod_Charge" ColumnName="Cod_Charge" />
+          <ScalarProperty Name="Topay_Charge" ColumnName="Topay_Charge" />
+          <ScalarProperty Name="Fuel_Sur_Charge" ColumnName="Fuel_Sur_Charge" />
+          <ScalarProperty Name="Other_Details" ColumnName="Other_Details" />
+          <ScalarProperty Name="Minimum_Risk_Charge" ColumnName="Minimum_Risk_Charge" />
+          <ScalarProperty Name="Insurance" ColumnName="Insurance" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="c_id" ColumnName="c_id" />
+          <ScalarProperty Name="Company_Id" ColumnName="Company_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Transaction">
+        <MappingFragment StoreEntitySet="Transactions">
+          <ScalarProperty Name="AdminEmp" ColumnName="AdminEmp" />
+          <ScalarProperty Name="chargable_weight" ColumnName="chargable_weight" />
+          <ScalarProperty Name="Actual_weight" ColumnName="Actual_weight" />
+          <ScalarProperty Name="tembookingdate" ColumnName="tembookingdate" />
+          <ScalarProperty Name="BillAmount" ColumnName="BillAmount" />
+          <ScalarProperty Name="Invoice_No" ColumnName="Invoice_No" />
+          <ScalarProperty Name="Risksurcharge" ColumnName="Risksurcharge" />
+          <ScalarProperty Name="odocharge" ColumnName="odocharge" />
+          <ScalarProperty Name="loadingcharge" ColumnName="loadingcharge" />
+          <ScalarProperty Name="fovcharge" ColumnName="fovcharge" />
+          <ScalarProperty Name="docketcharege" ColumnName="docketcharege" />
+          <ScalarProperty Name="rateperkg" ColumnName="rateperkg" />
+          <ScalarProperty Name="status_t" ColumnName="status_t" />
+          <ScalarProperty Name="dtdcamount" ColumnName="dtdcamount" />
+          <ScalarProperty Name="codtotalamount" ColumnName="codtotalamount" />
+          <ScalarProperty Name="codcharges" ColumnName="codcharges" />
+          <ScalarProperty Name="Topaycharges" ColumnName="Topaycharges" />
+          <ScalarProperty Name="TopayAmount" ColumnName="TopayAmount" />
+          <ScalarProperty Name="cod" ColumnName="cod" />
+          <ScalarProperty Name="consigner" ColumnName="consigner" />
+          <ScalarProperty Name="consignee" ColumnName="consignee" />
+          <ScalarProperty Name="codAmount" ColumnName="codAmount" />
+          <ScalarProperty Name="topay" ColumnName="topay" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="calinsuranceamount" ColumnName="calinsuranceamount" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="Claimamount" ColumnName="Claimamount" />
+          <ScalarProperty Name="Insurance" ColumnName="Insurance" />
+          <ScalarProperty Name="Type_t" ColumnName="Type_t" />
+          <ScalarProperty Name="Quanntity" ColumnName="Quanntity" />
+          <ScalarProperty Name="Pf_Code" ColumnName="Pf_Code" />
+          <ScalarProperty Name="Company_id" ColumnName="Company_id" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Weight_t" ColumnName="Weight_t" />
+          <ScalarProperty Name="Mode" ColumnName="Mode" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Consignment_no" ColumnName="Consignment_no" />
+          <ScalarProperty Name="booking_date" ColumnName="booking_date" />
+          <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
+          <ScalarProperty Name="T_id" ColumnName="T_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionViews">
+      <EntityTypeMapping TypeName="DtdcBillingModel.TransactionView">
+        <MappingFragment StoreEntitySet="TransactionView">
+          <ScalarProperty Name="tempdeliveredtime" ColumnName="tempdeliveredtime" />
+          <ScalarProperty Name="tempdelivereddate" ColumnName="tempdelivereddate" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="receivedby" ColumnName="receivedby" />
+          <ScalarProperty Name="delivered_time" ColumnName="delivered_time" />
+          <ScalarProperty Name="delivered_date" ColumnName="delivered_date" />
+          <ScalarProperty Name="consinmentno" ColumnName="consinmentno" />
+          <ScalarProperty Name="d_id" ColumnName="d_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="chargable_weight" ColumnName="chargable_weight" />
+          <ScalarProperty Name="Actual_weight" ColumnName="Actual_weight" />
+          <ScalarProperty Name="tembookingdate" ColumnName="tembookingdate" />
+          <ScalarProperty Name="BillAmount" ColumnName="BillAmount" />
+          <ScalarProperty Name="Invoice_No" ColumnName="Invoice_No" />
+          <ScalarProperty Name="Risksurcharge" ColumnName="Risksurcharge" />
+          <ScalarProperty Name="odocharge" ColumnName="odocharge" />
+          <ScalarProperty Name="loadingcharge" ColumnName="loadingcharge" />
+          <ScalarProperty Name="fovcharge" ColumnName="fovcharge" />
+          <ScalarProperty Name="docketcharege" ColumnName="docketcharege" />
+          <ScalarProperty Name="rateperkg" ColumnName="rateperkg" />
+          <ScalarProperty Name="status_t" ColumnName="status_t" />
+          <ScalarProperty Name="dtdcamount" ColumnName="dtdcamount" />
+          <ScalarProperty Name="codtotalamount" ColumnName="codtotalamount" />
+          <ScalarProperty Name="codcharges" ColumnName="codcharges" />
+          <ScalarProperty Name="Topaycharges" ColumnName="Topaycharges" />
+          <ScalarProperty Name="TopayAmount" ColumnName="TopayAmount" />
+          <ScalarProperty Name="cod" ColumnName="cod" />
+          <ScalarProperty Name="consigner" ColumnName="consigner" />
+          <ScalarProperty Name="consignee" ColumnName="consignee" />
+          <ScalarProperty Name="codAmount" ColumnName="codAmount" />
+          <ScalarProperty Name="topay" ColumnName="topay" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="calinsuranceamount" ColumnName="calinsuranceamount" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+          <ScalarProperty Name="Claimamount" ColumnName="Claimamount" />
+          <ScalarProperty Name="Insurance" ColumnName="Insurance" />
+          <ScalarProperty Name="Type_t" ColumnName="Type_t" />
+          <ScalarProperty Name="Quanntity" ColumnName="Quanntity" />
+          <ScalarProperty Name="Pf_Code" ColumnName="Pf_Code" />
+          <ScalarProperty Name="Company_id" ColumnName="Company_id" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Weight_t" ColumnName="Weight_t" />
+          <ScalarProperty Name="Mode" ColumnName="Mode" />
+          <ScalarProperty Name="Pincode" ColumnName="Pincode" />
+          <ScalarProperty Name="Consignment_no" ColumnName="Consignment_no" />
+          <ScalarProperty Name="booking_date" ColumnName="booking_date" />
+          <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
+          <ScalarProperty Name="T_id" ColumnName="T_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Invoice">
+        <MappingFragment StoreEntitySet="Invoice">
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="tempInvoicedate" ColumnName="tempInvoicedate" />
+          <ScalarProperty Name="TempdateTo" ColumnName="TempdateTo" />
+          <ScalarProperty Name="Tempdatefrom" ColumnName="Tempdatefrom" />
+          <ScalarProperty Name="Docket_charges" ColumnName="Docket_charges" />
+          <ScalarProperty Name="Royalty_charges" ColumnName="Royalty_charges" />
+          <ScalarProperty Name="servicecharges" ColumnName="servicecharges" />
+          <ScalarProperty Name="discountamount" ColumnName="discountamount" />
+          <ScalarProperty Name="discountper" ColumnName="discountper" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="paid" ColumnName="paid" />
+          <ScalarProperty Name="annyear" ColumnName="annyear" />
+          <ScalarProperty Name="fid" ColumnName="fid" />
+          <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
+          <ScalarProperty Name="netamount" ColumnName="netamount" />
+          <ScalarProperty Name="othercharge" ColumnName="othercharge" />
+          <ScalarProperty Name="servicetaxtotal" ColumnName="servicetaxtotal" />
+          <ScalarProperty Name="servicetax" ColumnName="servicetax" />
+          <ScalarProperty Name="fullsurchargetaxtotal" ColumnName="fullsurchargetaxtotal" />
+          <ScalarProperty Name="fullsurchargetax" ColumnName="fullsurchargetax" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="periodto" ColumnName="periodto" />
+          <ScalarProperty Name="periodfrom" ColumnName="periodfrom" />
+          <ScalarProperty Name="invoicedate" ColumnName="invoicedate" />
+          <ScalarProperty Name="invoiceno" ColumnName="invoiceno" />
+          <ScalarProperty Name="IN_Id" ColumnName="IN_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="deliverydatas">
+      <EntityTypeMapping TypeName="DtdcBillingModel.deliverydata">
+        <MappingFragment StoreEntitySet="deliverydata">
+          <ScalarProperty Name="tempdeliveredtime" ColumnName="tempdeliveredtime" />
+          <ScalarProperty Name="tempdelivereddate" ColumnName="tempdelivereddate" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="receivedby" ColumnName="receivedby" />
+          <ScalarProperty Name="delivered_time" ColumnName="delivered_time" />
+          <ScalarProperty Name="delivered_date" ColumnName="delivered_date" />
+          <ScalarProperty Name="consinmentno" ColumnName="consinmentno" />
+          <ScalarProperty Name="d_id" ColumnName="d_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RedeemOtps">
+      <EntityTypeMapping TypeName="DtdcBillingModel.RedeemOtp">
+        <MappingFragment StoreEntitySet="RedeemOtp">
+          <ScalarProperty Name="Datetime_Redeem" ColumnName="Datetime_Redeem" />
+          <ScalarProperty Name="Datetime" ColumnName="Datetime" />
+          <ScalarProperty Name="verified" ColumnName="verified" />
+          <ScalarProperty Name="Mobile_No" ColumnName="Mobile_No" />
+          <ScalarProperty Name="Otp" ColumnName="Otp" />
+          <ScalarProperty Name="Otp_Id" ColumnName="Otp_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sendmessages">
+      <EntityTypeMapping TypeName="DtdcBillingModel.Sendmessage">
+        <MappingFragment StoreEntitySet="Sendmessage">
+          <ScalarProperty Name="PF_Code" ColumnName="PF_Code" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="datetime_msg" ColumnName="datetime_msg" />
+          <ScalarProperty Name="Mobile_No" ColumnName="Mobile_No" />
+          <ScalarProperty Name="Consignment_No" ColumnName="Consignment_No" />
+          <ScalarProperty Name="M_ID" ColumnName="M_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="wallet_History">
+      <EntityTypeMapping TypeName="DtdcBillingModel.wallet_History">
+        <MappingFragment StoreEntitySet="wallet_History">
+          <ScalarProperty Name="mobile_no" ColumnName="mobile_no" />
+          <ScalarProperty Name="datetime" ColumnName="datetime" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="consignment_no" ColumnName="consignment_no" />
+          <ScalarProperty Name="Receipt_Id" ColumnName="Receipt_Id" />
+          <ScalarProperty Name="PF_Code" ColumnName="PF_Code" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="H_Status" ColumnName="H_Status" />
+          <ScalarProperty Name="H_Id" ColumnName="H_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
