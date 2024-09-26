@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\DTDC New Live Project\\HRA-EmpBilling\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|d:\\dtdc new live project\\hra-empbilling\\empbilling\\views\\ratemaster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\ratemaster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\walletpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\walletpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|d:\\dtdc new live project\\hra-empbilling\\empbilling\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|d:\\dtdc new live project\\hra-empbilling\\empbilling\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|d:\\dtdc new live project\\hra-empbilling\\empbilling\\views\\reports\\destinations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\reports\\destinations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\reports\\destinations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -19,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|d:\\dtdc new live project\\hra-empbilling\\empbilling\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\calculationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\emp\\emplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\emp\\emplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\walletpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\walletpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\shared\\emplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -63,19 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Ratemaster\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Ratemaster\\Index.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Ratemaster\\Index.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Ratemaster\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T12:14:37.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DestinationsController.cs",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\DestinationsController.cs",
               "RelativeDocumentMoniker": "EmpBilling\\Controllers\\DestinationsController.cs",
               "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\DestinationsController.cs",
               "RelativeToolTip": "EmpBilling\\Controllers\\DestinationsController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCQAAAAJAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T07:04:18.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ReportsController.cs",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\ReportsController.cs",
               "RelativeDocumentMoniker": "EmpBilling\\Controllers\\ReportsController.cs",
@@ -83,12 +100,11 @@
               "RelativeToolTip": "EmpBilling\\Controllers\\ReportsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:59:42.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T06:59:42.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Destinations.cshtml",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Reports\\Destinations.cshtml",
               "RelativeDocumentMoniker": "EmpBilling\\Views\\Reports\\Destinations.cshtml",
@@ -96,12 +112,11 @@
               "RelativeToolTip": "EmpBilling\\Views\\Reports\\Destinations.cshtml",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAABoAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T06:59:32.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T06:59:32.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "_all-skins.min.css",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
               "RelativeDocumentMoniker": "EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
@@ -113,19 +128,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "WalletPoint.cs",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\WalletPoint.cs",
               "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\WalletPoint.cs",
               "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\WalletPoint.cs",
               "RelativeToolTip": "EmpBilling\\EntityFr\\WalletPoint.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwBMAAABCAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T12:46:15.427Z"
+              "WhenOpened": "2024-08-28T12:46:15.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AdminLTE.css",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\admin-lte\\css\\AdminLTE.css",
               "RelativeDocumentMoniker": "EmpBilling\\admin-lte\\css\\AdminLTE.css",
@@ -137,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EmpLayout.cshtml",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
               "RelativeDocumentMoniker": "EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
@@ -149,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "EmpLogin.cshtml",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Emp\\EmpLogin.cshtml",
               "RelativeDocumentMoniker": "EmpBilling\\Views\\Emp\\EmpLogin.cshtml",
@@ -161,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CalculationController.cs",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\CalculationController.cs",
               "RelativeDocumentMoniker": "EmpBilling\\Controllers\\CalculationController.cs",
@@ -169,12 +185,11 @@
               "RelativeToolTip": "EmpBilling\\Controllers\\CalculationController.cs",
               "ViewState": "AQIAAGgAAAAAAAAAAAAlwIYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T10:56:41.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T10:56:41.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "BookingController.cs",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "EmpBilling\\Controllers\\BookingController.cs",
@@ -186,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HRAEmployeeDB.edmx [Diagram1]",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\HRAEmployeeDB.edmx",
               "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\HRAEmployeeDB.edmx",
@@ -197,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Web.config",
               "RelativeDocumentMoniker": "EmpBilling\\Web.config",
