@@ -107,7 +107,7 @@ namespace EmpBilling.Controllers
 
 
 
-                Invoice inc = db.Invoices.Where(m => m.invoiceno == myParameter).FirstOrDefault();
+                Invoice inc = db.Invoices.Where(m => m.invoiceno == myParameter.Trim()).FirstOrDefault();
 
                 string Pfcode = db.Companies.Where(m => m.Company_Id == inc.Customer_Id).Select(m => m.Pf_code).FirstOrDefault();
 
@@ -132,41 +132,46 @@ namespace EmpBilling.Controllers
                 string frgst = dataset2.FirstOrDefault().GstNo;
 
 
-                if (clientGst != null && clientGst.Length > 4)
+                //if (clientGst != null && clientGst.Length > 4)
+                //{
+                //    if (frgst.Substring(0, 2) == clientGst.Substring(0, 2))
+                //    {
+                //        string path = Path.Combine(Server.MapPath("~/Rdlc"), "PrintInvoice.rdlc");
+
+                //        if (System.IO.File.Exists(path))
+                //        {
+                //            lr.ReportPath = path;
+                //        }
+
+                //    }
+                //    else
+                //    {
+                //        string path = Path.Combine(Server.MapPath("~/Rdlc"), "PrintInvoiceIGST.rdlc");
+
+                //        if (System.IO.File.Exists(path))
+                //        {
+                //            lr.ReportPath = path;
+                //        }
+                //    }
+                //}
+                //else
+                //{
+                //    string path = Path.Combine(Server.MapPath("~/Rdlc"), "PrintInvoice.rdlc");
+
+                //    if (System.IO.File.Exists(path))
+                //    {
+                //        lr.ReportPath = path;
+                //    }
+                //}
+
+
+
+                string path = Path.Combine(Server.MapPath("~/Rdlc"), "NewPrintInvoice.rdlc");
+
+                if (System.IO.File.Exists(path))
                 {
-                    if (frgst.Substring(0, 2) == clientGst.Substring(0, 2))
-                    {
-                        string path = Path.Combine(Server.MapPath("~/Rdlc"), "PrintInvoice.rdlc");
-
-                        if (System.IO.File.Exists(path))
-                        {
-                            lr.ReportPath = path;
-                        }
-
-                    }
-                    else
-                    {
-                        string path = Path.Combine(Server.MapPath("~/Rdlc"), "PrintInvoiceIGST.rdlc");
-
-                        if (System.IO.File.Exists(path))
-                        {
-                            lr.ReportPath = path;
-                        }
-                    }
+                    lr.ReportPath = path;
                 }
-                else
-                {
-                    string path = Path.Combine(Server.MapPath("~/Rdlc"), "PrintInvoice.rdlc");
-
-                    if (System.IO.File.Exists(path))
-                    {
-                        lr.ReportPath = path;
-                    }
-                }
-
-
-
-
 
                 ////////////////////////////////////
                 ReportDataSource rd = new ReportDataSource("PrintInvoice", dataset);
@@ -223,12 +228,33 @@ namespace EmpBilling.Controllers
 
         public ActionResult Download(long id)
         {
-            
+            var baseUrl = Request.Url.Scheme + "://" + Request.Url.Authority + Request.ApplicationPath.TrimEnd('/');
             var invoice = db.Invoices.Where(m => m.IN_Id == id).FirstOrDefault();
+            if (invoice != null)
+            {
 
-            string savePath = "http://admin.vbexpress.in/PDF/" + invoice.Firm_Id + "-" + invoice.invoiceno.Replace("/", "-") + ".pdf";
+                var serverPath = Server.MapPath("~/PDF/" + invoice.Firm_Id + "-" + invoice.invoiceno.Replace("/", "-") + ".pdf");
+                if (System.IO.File.Exists(serverPath))
+                {
+                    return Redirect(serverPath);
+                }
+                else
+                {
+                    return RedirectToAction("ReportPrinterMethod", new { myParameter = invoice.invoiceno });
+                   // string savePath = baseUrl + invoice.Firm_Id + "-" + invoice.invoiceno.Replace("/", "-") + ".pdf";
 
-            return Redirect(savePath);
+
+                }
+
+            }
+            else
+            {
+                TempData["Message"] = "Invoice Does not exists!";
+                return RedirectToAction("ViewInvoice");
+            }
+
+
+           
 
         }
     }

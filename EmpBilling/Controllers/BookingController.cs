@@ -1018,7 +1018,62 @@ Select(e => new
             }
             return View(transactions);
         }
+        [HttpGet]
+        public ActionResult UploadPODCopy()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult UploadPODCopy(UploadPODCopyMOdel uploadPODCopyMOdel)
+        {
+            var check = db.Transactions.Where(x => x.Consignment_no == uploadPODCopyMOdel.consignmentno.Trim()).FirstOrDefault();
+            if (check != null)
+            {
+                var pfcode = check.Pf_Code;
+                if (uploadPODCopyMOdel.file != null)
+                {
+                    var path = Server.MapPath("~/PODFile");
+                    var pfpath = Path.Combine(path, pfcode);
+                    string baseUrl = Request.Url.Scheme + "://" + Request.Url.Authority +
+                                      Request.ApplicationPath.TrimEnd('/');
+                    if (!System.IO.Directory.Exists(pfpath))
+                    {
+                        System.IO.Directory.CreateDirectory(pfpath);
+                    }
 
+                    var fileExtension = Path.GetExtension(uploadPODCopyMOdel.file.FileName)?.ToLower();
+
+                    if (fileExtension != ".png" && fileExtension != ".jpg" && fileExtension != ".jpeg" && fileExtension != ".pdf" && fileExtension != ".doc")
+                    {
+                        // ModelState.AddModelError("fileerr", "Only Image files allowed.");
+                        TempData["Message"] = "Only Image files allowed! Or PDF File";
+                        return View();
+
+                    }
+                    var fileName = check.Consignment_no + fileExtension;
+                    var fullPath = Path.Combine(pfpath, fileName);
+
+                    // Save the uploaded file to the specified location
+                    uploadPODCopyMOdel.file.SaveAs(fullPath);
+                    // Update the database with the path to the uploaded file
+                    check.PODCopyPath = baseUrl + "/PODFile/" + pfcode + "/" + fileName;
+
+                    // Save the changes to the database
+                    db.Entry(check).State = EntityState.Modified;
+                    db.SaveChanges();
+                    TempData["Message"] = "POD File Uploaded Successfully!!";
+                    ModelState.Clear();
+                    return View();
+                }
+                TempData["Message"] = "POD Not File Uploaded!!";
+                return View();
+
+            }
+
+            TempData["Message"] = "Consignment Number Does Not Exits!!";
+
+            return View();
+        }
 
     }
 }

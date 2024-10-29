@@ -86,7 +86,7 @@
                 <div class="form-horizontal">
                     <!-- /.box-header -->
                     <div class="box-body">
-                        <table class="table table-striped table-bordered table-responsive height-450">
+                        <table id="invoicetable" class="table table-striped table-bordered table-responsive height-450">
                             <tr>
                                 <th></th>
                                 <th>
@@ -192,7 +192,12 @@
     <!-- /.row -->
 </section>
 <!-- /.content -->
-
+@if (TempData["Message"] != null)
+            {
+                <script>
+                    alert('@TempData["Message"]')
+                </script>
+            }
 <script>
     $('#datepicker').datepicker({
         autoclose: true,
@@ -205,6 +210,13 @@
         format: 'dd-mm-yyyy'
 
     })
+    $("#invoicetable").dataTable({
+        "bPaginate": true,
+        "bLengthChange": true,
+        "bFilter": true,
+        "bSort": true,
+        "bInfo": false,
+        "bAutoWidth": false    });
 
 </script>
 

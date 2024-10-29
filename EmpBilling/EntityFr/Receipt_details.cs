@@ -72,6 +72,7 @@ namespace EmpBilling.EntityFr
         public Nullable<System.DateTime> Datetime_Cons { get; set; }
         public Nullable<float> Paid_Amount { get; set; }
         public string BarcodeImage { get; set; }
+        public string ProviderName { get; set; }
     
         public virtual Franchisee Franchisee { get; set; }
         public virtual User User { get; set; }

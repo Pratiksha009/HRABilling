@@ -105,6 +105,8 @@
     <NavigationProperty Name="Dtdc_Ptp" Relationship="Self.fk_ptp" FromRole="Company" ToRole="Dtdc_Ptp" />
     <NavigationProperty Name="express_cargo" Relationship="Self.fk_ptpexp" FromRole="Company" ToRole="express_cargo" />
     <NavigationProperty Name="Transactions" Relationship="Self.fk_Tansaction" FromRole="Company" ToRole="Transactions" />
+    <Property Name="DueDays" Type="Int64" />
+    <Property Name="ClientCode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="Complaint">
     <Key>
@@ -685,6 +687,7 @@
     <Property Name="BarcodeImage" Type="String" MaxLength="800" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="Franchisee" Relationship="Self.fk_emprecept" FromRole="Receipt_details" ToRole="Franchisee" />
     <NavigationProperty Name="User" Relationship="Self.fk_rece" FromRole="Receipt_details" ToRole="Users" />
+    <Property Name="ProviderName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="RedeemOtp">
     <Key>
@@ -856,6 +859,12 @@
     <Property Name="compaddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="Company" Relationship="Self.fk_Tansaction" FromRole="Transactions" ToRole="Company" />
     <NavigationProperty Name="Franchisee" Relationship="Self.fk_Tansaction1" FromRole="Transactions" ToRole="Franchisee" />
+    <Property Name="ProviderName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Tracking_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="POD_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PickUpType" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="PickUpLocation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PODCopyPath" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="User">
     <Key>
@@ -956,6 +965,12 @@
     <Property Name="receivedby" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="remarks" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="tempdeliveredtime" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ProviderName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Tracking_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="POD_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PickUpLocation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PickUpType" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="PODCopyPath" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK__Dtdc_Ecom__Compa__2739D489">
     <End Role="Company" Type="Self.Company" Multiplicity="0..1" />

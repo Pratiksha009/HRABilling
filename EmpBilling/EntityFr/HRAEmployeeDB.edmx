@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="db_a92afa_hralogisticModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="db_a92afa_hralogisticModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="addcodamount">
           <Key>
             <PropertyRef Name="am_id" />
@@ -95,6 +95,8 @@
           <Property Name="Password" Type="nvarchar" MaxLength="20" />
           <Property Name="Username" Type="varchar" MaxLength="200" />
           <Property Name="G_Docket" Type="float" />
+          <Property Name="DueDays" Type="bigint" />
+          <Property Name="ClientCode" Type="varchar" MaxLength="30" />
         </EntityType>
         <EntityType Name="Complaint">
           <Key>
@@ -620,6 +622,7 @@
           <Property Name="Datetime_Cons" Type="datetime" />
           <Property Name="Paid_Amount" Type="real" />
           <Property Name="BarcodeImage" Type="nvarchar" MaxLength="800" />
+          <Property Name="ProviderName" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="RedeemOtp">
           <Key>
@@ -770,6 +773,12 @@
           <Property Name="Sender" Type="varchar(max)" />
           <Property Name="Receiver" Type="varchar(max)" />
           <Property Name="compaddress" Type="varchar" MaxLength="200" />
+          <Property Name="ProviderName" Type="varchar" MaxLength="100" />
+          <Property Name="Tracking_Number" Type="varchar" MaxLength="100" />
+          <Property Name="POD_Number" Type="varchar" MaxLength="100" />
+          <Property Name="PickUpType" Type="varchar" MaxLength="40" />
+          <Property Name="PickUpLocation" Type="varchar" MaxLength="100" />
+          <Property Name="PODCopyPath" Type="varchar" MaxLength="500" />
         </EntityType>
         <EntityType Name="Users">
           <Key>
@@ -861,6 +870,12 @@ warning 6002: The table/view 'db_a92afa_hralogistic.dbo.TransactionView' does no
           <Property Name="receivedby" Type="varchar" MaxLength="100" />
           <Property Name="remarks" Type="varchar" MaxLength="100" />
           <Property Name="tempdeliveredtime" Type="varchar" MaxLength="100" />
+          <Property Name="ProviderName" Type="varchar" MaxLength="100" />
+          <Property Name="Tracking_Number" Type="varchar" MaxLength="100" />
+          <Property Name="POD_Number" Type="varchar" MaxLength="100" />
+          <Property Name="PickUpLocation" Type="varchar" MaxLength="100" />
+          <Property Name="PickUpType" Type="varchar" MaxLength="40" />
+          <Property Name="PODCopyPath" Type="varchar" MaxLength="500" />
         </EntityType>
         <Association Name="Emp_Fk">
           <End Role="Franchisee" Type="Self.Franchisee" Multiplicity="0..1" />
@@ -1614,7 +1629,13 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
     [TransactionView].[tempdelivereddate] AS [tempdelivereddate], 
     [TransactionView].[receivedby] AS [receivedby], 
     [TransactionView].[remarks] AS [remarks], 
-    [TransactionView].[tempdeliveredtime] AS [tempdeliveredtime]
+    [TransactionView].[tempdeliveredtime] AS [tempdeliveredtime], 
+    [TransactionView].[ProviderName] AS [ProviderName], 
+    [TransactionView].[Tracking_Number] AS [Tracking_Number], 
+    [TransactionView].[POD_Number] AS [POD_Number], 
+    [TransactionView].[PickUpLocation] AS [PickUpLocation], 
+    [TransactionView].[PickUpType] AS [PickUpType], 
+    [TransactionView].[PODCopyPath] AS [PODCopyPath]
     FROM [dbo].[TransactionView] AS [TransactionView]</DefiningQuery>
           </EntitySet>
           <AssociationSet Name="Emp_Fk" Association="Self.Emp_Fk">
@@ -1822,8 +1843,7 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
             <End Role="Users" EntitySet="Users" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="db_a92afa_hralogisticModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -1932,6 +1952,8 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <NavigationProperty Name="Dtdc_Ptp" Relationship="Self.fk_ptp" FromRole="Company" ToRole="Dtdc_Ptp" />
           <NavigationProperty Name="express_cargo" Relationship="Self.fk_ptpexp" FromRole="Company" ToRole="express_cargo" />
           <NavigationProperty Name="Transactions" Relationship="Self.fk_Tansaction" FromRole="Company" ToRole="Transactions" />
+          <Property Name="DueDays" Type="Int64" />
+          <Property Name="ClientCode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="Complaint">
           <Key>
@@ -2512,6 +2534,7 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <Property Name="BarcodeImage" Type="String" MaxLength="800" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Franchisee" Relationship="Self.fk_emprecept" FromRole="Receipt_details" ToRole="Franchisee" />
           <NavigationProperty Name="User" Relationship="Self.fk_rece" FromRole="Receipt_details" ToRole="Users" />
+          <Property Name="ProviderName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="RedeemOtp">
           <Key>
@@ -2683,6 +2706,12 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <Property Name="compaddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Company" Relationship="Self.fk_Tansaction" FromRole="Transactions" ToRole="Company" />
           <NavigationProperty Name="Franchisee" Relationship="Self.fk_Tansaction1" FromRole="Transactions" ToRole="Franchisee" />
+          <Property Name="ProviderName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Tracking_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="POD_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PickUpType" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="PickUpLocation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PODCopyPath" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="User">
           <Key>
@@ -2783,6 +2812,12 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <Property Name="receivedby" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="remarks" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="tempdeliveredtime" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ProviderName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Tracking_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="POD_Number" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PickUpLocation" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PickUpType" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="PODCopyPath" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
         </EntityType>
         <Association Name="FK__Dtdc_Ecom__Compa__2739D489">
           <End Role="Company" Type="Self.Company" Multiplicity="0..1" />
@@ -3653,7 +3688,7 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
             <End Role="wallet_History" EntitySet="wallet_History" />
           </AssociationSet>
           <FunctionImport Name="dashboardData" ReturnType="Collection(db_a92afa_hralogisticModel.dashboardData_Result)">
-            <Parameter Name="currentDate" Mode="In" Type="DateTime" />
+          <Parameter Name="currentDate" Mode="In" Type="DateTime" />
           </FunctionImport>
           <FunctionImport Name="getInvoice" ReturnType="Collection(db_a92afa_hralogisticModel.getInvoice_Result)">
             <Parameter Name="fromDate" Mode="In" Type="DateTime" />
@@ -3668,10 +3703,10 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           </FunctionImport>
           <FunctionImport Name="getNotification" ReturnType="Collection(db_a92afa_hralogisticModel.getNotification_Result)" />
           <FunctionImport Name="getRemaining" ReturnType="Collection(db_a92afa_hralogisticModel.getRemaining_Result)">
-            <Parameter Name="PfCode" Mode="In" Type="String" />
+          <Parameter Name="PfCode" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="getSingleMisData" ReturnType="Collection(db_a92afa_hralogisticModel.getSingleMisData_Result)">
-            <Parameter Name="consignmentNo" Mode="In" Type="String" />
+          <Parameter Name="consignmentNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="getTransactionsUpdate">
             <Parameter Name="invoiceno" Mode="In" Type="String" />
@@ -3680,7 +3715,7 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
             <Parameter Name="toDate" Mode="In" Type="DateTime" />
           </FunctionImport>
           <FunctionImport Name="Sp_GetSingleConsignment" ReturnType="Collection(db_a92afa_hralogisticModel.Sp_GetSingleConsignment_Result)">
-            <Parameter Name="Con_no" Mode="In" Type="String" />
+          <Parameter Name="Con_no" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="SP_MISReport" ReturnType="Collection(db_a92afa_hralogisticModel.SP_MISReport_Result)">
             <Parameter Name="customerid" Mode="In" Type="String" />
@@ -4000,6 +4035,8 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <EntitySetMapping Name="Companies">
             <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.Company">
               <MappingFragment StoreEntitySet="Company">
+                <ScalarProperty Name="ClientCode" ColumnName="ClientCode" />
+                <ScalarProperty Name="DueDays" ColumnName="DueDays" />
                 <ScalarProperty Name="Company_Id" ColumnName="Company_Id" />
                 <ScalarProperty Name="c_id" ColumnName="c_id" />
                 <ScalarProperty Name="Phone" ColumnName="Phone" />
@@ -4523,6 +4560,7 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <EntitySetMapping Name="Receipt_details">
             <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.Receipt_details">
               <MappingFragment StoreEntitySet="Receipt_details">
+                <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
                 <ScalarProperty Name="Receipt_Id" ColumnName="Receipt_Id" />
                 <ScalarProperty Name="Consignment_No" ColumnName="Consignment_No" />
                 <ScalarProperty Name="Destination" ColumnName="Destination" />
@@ -4697,6 +4735,12 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <EntitySetMapping Name="Transactions">
             <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.Transaction">
               <MappingFragment StoreEntitySet="Transactions">
+                <ScalarProperty Name="PODCopyPath" ColumnName="PODCopyPath" />
+                <ScalarProperty Name="PickUpLocation" ColumnName="PickUpLocation" />
+                <ScalarProperty Name="PickUpType" ColumnName="PickUpType" />
+                <ScalarProperty Name="POD_Number" ColumnName="POD_Number" />
+                <ScalarProperty Name="Tracking_Number" ColumnName="Tracking_Number" />
+                <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
                 <ScalarProperty Name="T_id" ColumnName="T_id" />
                 <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
                 <ScalarProperty Name="booking_date" ColumnName="booking_date" />
@@ -4786,6 +4830,12 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
           <EntitySetMapping Name="TransactionViews">
             <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.TransactionView">
               <MappingFragment StoreEntitySet="TransactionView">
+                <ScalarProperty Name="PODCopyPath" ColumnName="PODCopyPath" />
+                <ScalarProperty Name="PickUpType" ColumnName="PickUpType" />
+                <ScalarProperty Name="PickUpLocation" ColumnName="PickUpLocation" />
+                <ScalarProperty Name="POD_Number" ColumnName="POD_Number" />
+                <ScalarProperty Name="Tracking_Number" ColumnName="Tracking_Number" />
+                <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
                 <ScalarProperty Name="T_id" ColumnName="T_id" />
                 <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
                 <ScalarProperty Name="booking_date" ColumnName="booking_date" />

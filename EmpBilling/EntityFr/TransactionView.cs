@@ -62,5 +62,11 @@ namespace EmpBilling.EntityFr
         public string receivedby { get; set; }
         public string remarks { get; set; }
         public string tempdeliveredtime { get; set; }
+        public string ProviderName { get; set; }
+        public string Tracking_Number { get; set; }
+        public string POD_Number { get; set; }
+        public string PickUpLocation { get; set; }
+        public string PickUpType { get; set; }
+        public string PODCopyPath { get; set; }
     }
 }

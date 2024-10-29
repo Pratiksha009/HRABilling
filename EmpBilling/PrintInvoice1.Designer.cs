@@ -285,9 +285,9 @@ namespace EmpBilling {
             
             private global::System.Data.DataColumn columnbooking_date;
             
-            private global::System.Data.DataColumn columnConsignment_no;
+            private global::System.Data.DataColumn columncompaddress;
             
-            private global::System.Data.DataColumn columnPincode;
+            private global::System.Data.DataColumn columnConsignment_no;
             
             private global::System.Data.DataColumn columnMode;
             
@@ -296,6 +296,8 @@ namespace EmpBilling {
             private global::System.Data.DataColumn columnAmount;
             
             private global::System.Data.DataColumn columnCompany_id;
+            
+            private global::System.Data.DataColumn columnPincode;
             
             private global::System.Data.DataColumn columnPf_Code;
             
@@ -310,8 +312,6 @@ namespace EmpBilling {
             private global::System.Data.DataColumn columnPercentage;
             
             private global::System.Data.DataColumn columncalinsuranceamount;
-            
-            private global::System.Data.DataColumn columnremark;
             
             private global::System.Data.DataColumn columntopay;
             
@@ -359,11 +359,33 @@ namespace EmpBilling {
             
             private global::System.Data.DataColumn columnAdminEmp;
             
+            private global::System.Data.DataColumn columndiff_weight;
+            
+            private global::System.Data.DataColumn columnSender;
+            
+            private global::System.Data.DataColumn columnreceiver;
+            
             private global::System.Data.DataColumn columnName;
             
-            private global::System.Data.DataColumn columndelivered_date;
+            private global::System.Data.DataColumn columntempdelivereddate;
             
             private global::System.Data.DataColumn columnreceivedby;
+            
+            private global::System.Data.DataColumn columnremarks;
+            
+            private global::System.Data.DataColumn columntempdeliveredtime;
+            
+            private global::System.Data.DataColumn columnProviderName;
+            
+            private global::System.Data.DataColumn columnTracking_Number;
+            
+            private global::System.Data.DataColumn columnPOD_Number;
+            
+            private global::System.Data.DataColumn columnPickUpLocation;
+            
+            private global::System.Data.DataColumn columnPickUpType;
+            
+            private global::System.Data.DataColumn columnPODCopyPath;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -424,17 +446,17 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn Consignment_noColumn {
+            public global::System.Data.DataColumn compaddressColumn {
                 get {
-                    return this.columnConsignment_no;
+                    return this.columncompaddress;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn PincodeColumn {
+            public global::System.Data.DataColumn Consignment_noColumn {
                 get {
-                    return this.columnPincode;
+                    return this.columnConsignment_no;
                 }
             }
             
@@ -467,6 +489,14 @@ namespace EmpBilling {
             public global::System.Data.DataColumn Company_idColumn {
                 get {
                     return this.columnCompany_id;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn PincodeColumn {
+                get {
+                    return this.columnPincode;
                 }
             }
             
@@ -523,14 +553,6 @@ namespace EmpBilling {
             public global::System.Data.DataColumn calinsuranceamountColumn {
                 get {
                     return this.columncalinsuranceamount;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn remarkColumn {
-                get {
-                    return this.columnremark;
                 }
             }
             
@@ -720,6 +742,30 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn diff_weightColumn {
+                get {
+                    return this.columndiff_weight;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn SenderColumn {
+                get {
+                    return this.columnSender;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn receiverColumn {
+                get {
+                    return this.columnreceiver;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn NameColumn {
                 get {
                     return this.columnName;
@@ -728,9 +774,9 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn delivered_dateColumn {
+            public global::System.Data.DataColumn tempdelivereddateColumn {
                 get {
-                    return this.columndelivered_date;
+                    return this.columntempdelivereddate;
                 }
             }
             
@@ -739,6 +785,70 @@ namespace EmpBilling {
             public global::System.Data.DataColumn receivedbyColumn {
                 get {
                     return this.columnreceivedby;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn remarksColumn {
+                get {
+                    return this.columnremarks;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn tempdeliveredtimeColumn {
+                get {
+                    return this.columntempdeliveredtime;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn ProviderNameColumn {
+                get {
+                    return this.columnProviderName;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn Tracking_NumberColumn {
+                get {
+                    return this.columnTracking_Number;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn POD_NumberColumn {
+                get {
+                    return this.columnPOD_Number;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn PickUpLocationColumn {
+                get {
+                    return this.columnPickUpLocation;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn PickUpTypeColumn {
+                get {
+                    return this.columnPickUpType;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public global::System.Data.DataColumn PODCopyPathColumn {
+                get {
+                    return this.columnPODCopyPath;
                 }
             }
             
@@ -783,12 +893,13 @@ namespace EmpBilling {
                         long T_id, 
                         string Customer_Id, 
                         System.DateTime booking_date, 
+                        string compaddress, 
                         string Consignment_no, 
-                        string Pincode, 
                         string Mode, 
                         string Weight_t, 
                         double Amount, 
                         string Company_id, 
+                        string Pincode, 
                         string Pf_Code, 
                         int Quanntity, 
                         string Type_t, 
@@ -796,7 +907,6 @@ namespace EmpBilling {
                         string Claimamount, 
                         string Percentage, 
                         string calinsuranceamount, 
-                        string remark, 
                         string topay, 
                         double codAmount, 
                         string consignee, 
@@ -820,20 +930,32 @@ namespace EmpBilling {
                         double Actual_weight, 
                         double chargable_weight, 
                         int AdminEmp, 
+                        double diff_weight, 
+                        string Sender, 
+                        string receiver, 
                         string Name, 
-                        System.DateTime delivered_date, 
-                        string receivedby) {
+                        string tempdelivereddate, 
+                        string receivedby, 
+                        string remarks, 
+                        string tempdeliveredtime, 
+                        string ProviderName, 
+                        string Tracking_Number, 
+                        string POD_Number, 
+                        string PickUpLocation, 
+                        string PickUpType, 
+                        string PODCopyPath) {
                 TransactionViewRow rowTransactionViewRow = ((TransactionViewRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         T_id,
                         Customer_Id,
                         booking_date,
+                        compaddress,
                         Consignment_no,
-                        Pincode,
                         Mode,
                         Weight_t,
                         Amount,
                         Company_id,
+                        Pincode,
                         Pf_Code,
                         Quanntity,
                         Type_t,
@@ -841,7 +963,6 @@ namespace EmpBilling {
                         Claimamount,
                         Percentage,
                         calinsuranceamount,
-                        remark,
                         topay,
                         codAmount,
                         consignee,
@@ -865,9 +986,20 @@ namespace EmpBilling {
                         Actual_weight,
                         chargable_weight,
                         AdminEmp,
+                        diff_weight,
+                        Sender,
+                        receiver,
                         Name,
-                        delivered_date,
-                        receivedby};
+                        tempdelivereddate,
+                        receivedby,
+                        remarks,
+                        tempdeliveredtime,
+                        ProviderName,
+                        Tracking_Number,
+                        POD_Number,
+                        PickUpLocation,
+                        PickUpType,
+                        PODCopyPath};
                 rowTransactionViewRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowTransactionViewRow);
                 return rowTransactionViewRow;
@@ -900,12 +1032,13 @@ namespace EmpBilling {
                 this.columnT_id = base.Columns["T_id"];
                 this.columnCustomer_Id = base.Columns["Customer_Id"];
                 this.columnbooking_date = base.Columns["booking_date"];
+                this.columncompaddress = base.Columns["compaddress"];
                 this.columnConsignment_no = base.Columns["Consignment_no"];
-                this.columnPincode = base.Columns["Pincode"];
                 this.columnMode = base.Columns["Mode"];
                 this.columnWeight_t = base.Columns["Weight_t"];
                 this.columnAmount = base.Columns["Amount"];
                 this.columnCompany_id = base.Columns["Company_id"];
+                this.columnPincode = base.Columns["Pincode"];
                 this.columnPf_Code = base.Columns["Pf_Code"];
                 this.columnQuanntity = base.Columns["Quanntity"];
                 this.columnType_t = base.Columns["Type_t"];
@@ -913,7 +1046,6 @@ namespace EmpBilling {
                 this.columnClaimamount = base.Columns["Claimamount"];
                 this.columnPercentage = base.Columns["Percentage"];
                 this.columncalinsuranceamount = base.Columns["calinsuranceamount"];
-                this.columnremark = base.Columns["remark"];
                 this.columntopay = base.Columns["topay"];
                 this.columncodAmount = base.Columns["codAmount"];
                 this.columnconsignee = base.Columns["consignee"];
@@ -937,9 +1069,20 @@ namespace EmpBilling {
                 this.columnActual_weight = base.Columns["Actual_weight"];
                 this.columnchargable_weight = base.Columns["chargable_weight"];
                 this.columnAdminEmp = base.Columns["AdminEmp"];
+                this.columndiff_weight = base.Columns["diff_weight"];
+                this.columnSender = base.Columns["Sender"];
+                this.columnreceiver = base.Columns["receiver"];
                 this.columnName = base.Columns["Name"];
-                this.columndelivered_date = base.Columns["delivered_date"];
+                this.columntempdelivereddate = base.Columns["tempdelivereddate"];
                 this.columnreceivedby = base.Columns["receivedby"];
+                this.columnremarks = base.Columns["remarks"];
+                this.columntempdeliveredtime = base.Columns["tempdeliveredtime"];
+                this.columnProviderName = base.Columns["ProviderName"];
+                this.columnTracking_Number = base.Columns["Tracking_Number"];
+                this.columnPOD_Number = base.Columns["POD_Number"];
+                this.columnPickUpLocation = base.Columns["PickUpLocation"];
+                this.columnPickUpType = base.Columns["PickUpType"];
+                this.columnPODCopyPath = base.Columns["PODCopyPath"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -951,10 +1094,10 @@ namespace EmpBilling {
                 base.Columns.Add(this.columnCustomer_Id);
                 this.columnbooking_date = new global::System.Data.DataColumn("booking_date", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnbooking_date);
+                this.columncompaddress = new global::System.Data.DataColumn("compaddress", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columncompaddress);
                 this.columnConsignment_no = new global::System.Data.DataColumn("Consignment_no", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnConsignment_no);
-                this.columnPincode = new global::System.Data.DataColumn("Pincode", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnPincode);
                 this.columnMode = new global::System.Data.DataColumn("Mode", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMode);
                 this.columnWeight_t = new global::System.Data.DataColumn("Weight_t", typeof(string), null, global::System.Data.MappingType.Element);
@@ -963,6 +1106,8 @@ namespace EmpBilling {
                 base.Columns.Add(this.columnAmount);
                 this.columnCompany_id = new global::System.Data.DataColumn("Company_id", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCompany_id);
+                this.columnPincode = new global::System.Data.DataColumn("Pincode", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPincode);
                 this.columnPf_Code = new global::System.Data.DataColumn("Pf_Code", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPf_Code);
                 this.columnQuanntity = new global::System.Data.DataColumn("Quanntity", typeof(int), null, global::System.Data.MappingType.Element);
@@ -977,8 +1122,6 @@ namespace EmpBilling {
                 base.Columns.Add(this.columnPercentage);
                 this.columncalinsuranceamount = new global::System.Data.DataColumn("calinsuranceamount", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columncalinsuranceamount);
-                this.columnremark = new global::System.Data.DataColumn("remark", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnremark);
                 this.columntopay = new global::System.Data.DataColumn("topay", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columntopay);
                 this.columncodAmount = new global::System.Data.DataColumn("codAmount", typeof(double), null, global::System.Data.MappingType.Element);
@@ -1025,37 +1168,70 @@ namespace EmpBilling {
                 base.Columns.Add(this.columnchargable_weight);
                 this.columnAdminEmp = new global::System.Data.DataColumn("AdminEmp", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnAdminEmp);
+                this.columndiff_weight = new global::System.Data.DataColumn("diff_weight", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columndiff_weight);
+                this.columnSender = new global::System.Data.DataColumn("Sender", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSender);
+                this.columnreceiver = new global::System.Data.DataColumn("receiver", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnreceiver);
                 this.columnName = new global::System.Data.DataColumn("Name", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnName);
-                this.columndelivered_date = new global::System.Data.DataColumn("delivered_date", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndelivered_date);
+                this.columntempdelivereddate = new global::System.Data.DataColumn("tempdelivereddate", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columntempdelivereddate);
                 this.columnreceivedby = new global::System.Data.DataColumn("receivedby", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnreceivedby);
+                this.columnremarks = new global::System.Data.DataColumn("remarks", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnremarks);
+                this.columntempdeliveredtime = new global::System.Data.DataColumn("tempdeliveredtime", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columntempdeliveredtime);
+                this.columnProviderName = new global::System.Data.DataColumn("ProviderName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnProviderName);
+                this.columnTracking_Number = new global::System.Data.DataColumn("Tracking_Number", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnTracking_Number);
+                this.columnPOD_Number = new global::System.Data.DataColumn("POD_Number", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPOD_Number);
+                this.columnPickUpLocation = new global::System.Data.DataColumn("PickUpLocation", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPickUpLocation);
+                this.columnPickUpType = new global::System.Data.DataColumn("PickUpType", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPickUpType);
+                this.columnPODCopyPath = new global::System.Data.DataColumn("PODCopyPath", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPODCopyPath);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnT_id}, true));
                 this.columnT_id.AllowDBNull = false;
                 this.columnT_id.Unique = true;
                 this.columnCustomer_Id.MaxLength = 50;
+                this.columncompaddress.MaxLength = 200;
                 this.columnConsignment_no.MaxLength = 100;
-                this.columnPincode.MaxLength = 20;
                 this.columnMode.MaxLength = 20;
                 this.columnWeight_t.MaxLength = 20;
                 this.columnCompany_id.MaxLength = 100;
+                this.columnPincode.MaxLength = 20;
                 this.columnPf_Code.MaxLength = 20;
                 this.columnType_t.MaxLength = 100;
                 this.columnInsurance.MaxLength = 20;
                 this.columnClaimamount.MaxLength = 20;
                 this.columnPercentage.MaxLength = 20;
                 this.columncalinsuranceamount.MaxLength = 20;
-                this.columnremark.MaxLength = 20;
                 this.columntopay.MaxLength = 20;
                 this.columnconsignee.MaxLength = 100;
                 this.columnconsigner.MaxLength = 100;
                 this.columncod.MaxLength = 100;
                 this.columnstatus_t.MaxLength = 100;
                 this.columntembookingdate.MaxLength = 50;
+                this.columnSender.MaxLength = 2147483647;
+                this.columnreceiver.MaxLength = 2147483647;
                 this.columnName.MaxLength = 100;
+                this.columntempdelivereddate.MaxLength = 100;
                 this.columnreceivedby.MaxLength = 100;
+                this.columnremarks.MaxLength = 100;
+                this.columntempdeliveredtime.MaxLength = 100;
+                this.columnProviderName.MaxLength = 100;
+                this.columnTracking_Number.MaxLength = 100;
+                this.columnPOD_Number.MaxLength = 100;
+                this.columnPickUpLocation.MaxLength = 100;
+                this.columnPickUpType.MaxLength = 40;
+                this.columnPODCopyPath.MaxLength = 500;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1241,6 +1417,22 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string compaddress {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.compaddressColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'compaddress\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.compaddressColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Consignment_no {
                 get {
                     try {
@@ -1252,22 +1444,6 @@ namespace EmpBilling {
                 }
                 set {
                     this[this.tableTransactionView.Consignment_noColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string Pincode {
-                get {
-                    try {
-                        return ((string)(this[this.tableTransactionView.PincodeColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Pincode\' in table \'TransactionView\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableTransactionView.PincodeColumn] = value;
                 }
             }
             
@@ -1332,6 +1508,22 @@ namespace EmpBilling {
                 }
                 set {
                     this[this.tableTransactionView.Company_idColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string Pincode {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.PincodeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Pincode\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.PincodeColumn] = value;
                 }
             }
             
@@ -1444,22 +1636,6 @@ namespace EmpBilling {
                 }
                 set {
                     this[this.tableTransactionView.calinsuranceamountColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string remark {
-                get {
-                    try {
-                        return ((string)(this[this.tableTransactionView.remarkColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'remark\' in table \'TransactionView\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableTransactionView.remarkColumn] = value;
                 }
             }
             
@@ -1833,6 +2009,54 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public double diff_weight {
+                get {
+                    try {
+                        return ((double)(this[this.tableTransactionView.diff_weightColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'diff_weight\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.diff_weightColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string Sender {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.SenderColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Sender\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.SenderColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string receiver {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.receiverColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'receiver\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.receiverColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Name {
                 get {
                     try {
@@ -1849,17 +2073,17 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public System.DateTime delivered_date {
+            public string tempdelivereddate {
                 get {
                     try {
-                        return ((global::System.DateTime)(this[this.tableTransactionView.delivered_dateColumn]));
+                        return ((string)(this[this.tableTransactionView.tempdelivereddateColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'delivered_date\' in table \'TransactionView\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'tempdelivereddate\' in table \'TransactionView\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableTransactionView.delivered_dateColumn] = value;
+                    this[this.tableTransactionView.tempdelivereddateColumn] = value;
                 }
             }
             
@@ -1876,6 +2100,134 @@ namespace EmpBilling {
                 }
                 set {
                     this[this.tableTransactionView.receivedbyColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string remarks {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.remarksColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'remarks\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.remarksColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string tempdeliveredtime {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.tempdeliveredtimeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'tempdeliveredtime\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.tempdeliveredtimeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string ProviderName {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.ProviderNameColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ProviderName\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.ProviderNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string Tracking_Number {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.Tracking_NumberColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Tracking_Number\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.Tracking_NumberColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string POD_Number {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.POD_NumberColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'POD_Number\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.POD_NumberColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string PickUpLocation {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.PickUpLocationColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'PickUpLocation\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.PickUpLocationColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string PickUpType {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.PickUpTypeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'PickUpType\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.PickUpTypeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public string PODCopyPath {
+                get {
+                    try {
+                        return ((string)(this[this.tableTransactionView.PODCopyPathColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'PODCopyPath\' in table \'TransactionView\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableTransactionView.PODCopyPathColumn] = value;
                 }
             }
             
@@ -1905,6 +2257,18 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IscompaddressNull() {
+                return this.IsNull(this.tableTransactionView.compaddressColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetcompaddressNull() {
+                this[this.tableTransactionView.compaddressColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsConsignment_noNull() {
                 return this.IsNull(this.tableTransactionView.Consignment_noColumn);
             }
@@ -1913,18 +2277,6 @@ namespace EmpBilling {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetConsignment_noNull() {
                 this[this.tableTransactionView.Consignment_noColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsPincodeNull() {
-                return this.IsNull(this.tableTransactionView.PincodeColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetPincodeNull() {
-                this[this.tableTransactionView.PincodeColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1973,6 +2325,18 @@ namespace EmpBilling {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetCompany_idNull() {
                 this[this.tableTransactionView.Company_idColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsPincodeNull() {
+                return this.IsNull(this.tableTransactionView.PincodeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetPincodeNull() {
+                this[this.tableTransactionView.PincodeColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2057,18 +2421,6 @@ namespace EmpBilling {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetcalinsuranceamountNull() {
                 this[this.tableTransactionView.calinsuranceamountColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsremarkNull() {
-                return this.IsNull(this.tableTransactionView.remarkColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetremarkNull() {
-                this[this.tableTransactionView.remarkColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2349,6 +2701,42 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool Isdiff_weightNull() {
+                return this.IsNull(this.tableTransactionView.diff_weightColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void Setdiff_weightNull() {
+                this[this.tableTransactionView.diff_weightColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsSenderNull() {
+                return this.IsNull(this.tableTransactionView.SenderColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetSenderNull() {
+                this[this.tableTransactionView.SenderColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsreceiverNull() {
+                return this.IsNull(this.tableTransactionView.receiverColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetreceiverNull() {
+                this[this.tableTransactionView.receiverColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsNameNull() {
                 return this.IsNull(this.tableTransactionView.NameColumn);
             }
@@ -2361,14 +2749,14 @@ namespace EmpBilling {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool Isdelivered_dateNull() {
-                return this.IsNull(this.tableTransactionView.delivered_dateColumn);
+            public bool IstempdelivereddateNull() {
+                return this.IsNull(this.tableTransactionView.tempdelivereddateColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void Setdelivered_dateNull() {
-                this[this.tableTransactionView.delivered_dateColumn] = global::System.Convert.DBNull;
+            public void SettempdelivereddateNull() {
+                this[this.tableTransactionView.tempdelivereddateColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2381,6 +2769,102 @@ namespace EmpBilling {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetreceivedbyNull() {
                 this[this.tableTransactionView.receivedbyColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsremarksNull() {
+                return this.IsNull(this.tableTransactionView.remarksColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetremarksNull() {
+                this[this.tableTransactionView.remarksColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IstempdeliveredtimeNull() {
+                return this.IsNull(this.tableTransactionView.tempdeliveredtimeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SettempdeliveredtimeNull() {
+                this[this.tableTransactionView.tempdeliveredtimeColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsProviderNameNull() {
+                return this.IsNull(this.tableTransactionView.ProviderNameColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetProviderNameNull() {
+                this[this.tableTransactionView.ProviderNameColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsTracking_NumberNull() {
+                return this.IsNull(this.tableTransactionView.Tracking_NumberColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetTracking_NumberNull() {
+                this[this.tableTransactionView.Tracking_NumberColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsPOD_NumberNull() {
+                return this.IsNull(this.tableTransactionView.POD_NumberColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetPOD_NumberNull() {
+                this[this.tableTransactionView.POD_NumberColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsPickUpLocationNull() {
+                return this.IsNull(this.tableTransactionView.PickUpLocationColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetPickUpLocationNull() {
+                this[this.tableTransactionView.PickUpLocationColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsPickUpTypeNull() {
+                return this.IsNull(this.tableTransactionView.PickUpTypeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetPickUpTypeNull() {
+                this[this.tableTransactionView.PickUpTypeColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public bool IsPODCopyPathNull() {
+                return this.IsNull(this.tableTransactionView.PODCopyPathColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+            public void SetPODCopyPathNull() {
+                this[this.tableTransactionView.PODCopyPathColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -2546,12 +3030,13 @@ namespace EmpBilling.PrintInvoiceTableAdapters {
             tableMapping.ColumnMappings.Add("T_id", "T_id");
             tableMapping.ColumnMappings.Add("Customer_Id", "Customer_Id");
             tableMapping.ColumnMappings.Add("booking_date", "booking_date");
+            tableMapping.ColumnMappings.Add("compaddress", "compaddress");
             tableMapping.ColumnMappings.Add("Consignment_no", "Consignment_no");
-            tableMapping.ColumnMappings.Add("Pincode", "Pincode");
             tableMapping.ColumnMappings.Add("Mode", "Mode");
             tableMapping.ColumnMappings.Add("Weight_t", "Weight_t");
             tableMapping.ColumnMappings.Add("Amount", "Amount");
             tableMapping.ColumnMappings.Add("Company_id", "Company_id");
+            tableMapping.ColumnMappings.Add("Pincode", "Pincode");
             tableMapping.ColumnMappings.Add("Pf_Code", "Pf_Code");
             tableMapping.ColumnMappings.Add("Quanntity", "Quanntity");
             tableMapping.ColumnMappings.Add("Type_t", "Type_t");
@@ -2559,7 +3044,6 @@ namespace EmpBilling.PrintInvoiceTableAdapters {
             tableMapping.ColumnMappings.Add("Claimamount", "Claimamount");
             tableMapping.ColumnMappings.Add("Percentage", "Percentage");
             tableMapping.ColumnMappings.Add("calinsuranceamount", "calinsuranceamount");
-            tableMapping.ColumnMappings.Add("remark", "remark");
             tableMapping.ColumnMappings.Add("topay", "topay");
             tableMapping.ColumnMappings.Add("codAmount", "codAmount");
             tableMapping.ColumnMappings.Add("consignee", "consignee");
@@ -2583,9 +3067,20 @@ namespace EmpBilling.PrintInvoiceTableAdapters {
             tableMapping.ColumnMappings.Add("Actual_weight", "Actual_weight");
             tableMapping.ColumnMappings.Add("chargable_weight", "chargable_weight");
             tableMapping.ColumnMappings.Add("AdminEmp", "AdminEmp");
+            tableMapping.ColumnMappings.Add("diff_weight", "diff_weight");
+            tableMapping.ColumnMappings.Add("Sender", "Sender");
+            tableMapping.ColumnMappings.Add("receiver", "receiver");
             tableMapping.ColumnMappings.Add("Name", "Name");
-            tableMapping.ColumnMappings.Add("delivered_date", "delivered_date");
+            tableMapping.ColumnMappings.Add("tempdelivereddate", "tempdelivereddate");
             tableMapping.ColumnMappings.Add("receivedby", "receivedby");
+            tableMapping.ColumnMappings.Add("remarks", "remarks");
+            tableMapping.ColumnMappings.Add("tempdeliveredtime", "tempdeliveredtime");
+            tableMapping.ColumnMappings.Add("ProviderName", "ProviderName");
+            tableMapping.ColumnMappings.Add("Tracking_Number", "Tracking_Number");
+            tableMapping.ColumnMappings.Add("POD_Number", "POD_Number");
+            tableMapping.ColumnMappings.Add("PickUpLocation", "PickUpLocation");
+            tableMapping.ColumnMappings.Add("PickUpType", "PickUpType");
+            tableMapping.ColumnMappings.Add("PODCopyPath", "PODCopyPath");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -2593,7 +3088,7 @@ namespace EmpBilling.PrintInvoiceTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["DtdcBillingConnectionString"].ConnectionString;
+            this._connection.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["db_a92afa_hralogisticConnectionString"].ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2602,7 +3097,7 @@ namespace EmpBilling.PrintInvoiceTableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = @"SELECT T_id, Customer_Id, booking_date, Consignment_no, Pincode, Mode, Weight_t, Amount, Company_id, Pf_Code, Quanntity, Type_t, Insurance, Claimamount, Percentage, calinsuranceamount, remark, topay, codAmount, consignee, consigner, cod, TopayAmount, Topaycharges, codcharges, codtotalamount, dtdcamount, status_t, rateperkg, docketcharege, fovcharge, loadingcharge, odocharge, Risksurcharge, Invoice_No, BillAmount, tembookingdate, Actual_weight, chargable_weight, AdminEmp, Name, delivered_date, receivedby FROM DtdcBilling.TransactionView";
+            this._commandCollection[0].CommandText = "SELECT        TransactionView.*\r\nFROM            TransactionView";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         

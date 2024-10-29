@@ -1,4 +1,5 @@
-﻿using EmpBilling.EntityFr;
+﻿using DtDc_Billing.Models;
+using EmpBilling.EntityFr;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -64,6 +65,9 @@ namespace EmpBilling.Controllers
                                         invoiceno = u.invoiceno,
                                         periodfrom = u.periodfrom,
                                         periodto = u.periodto,
+                                        tempInvoicedate= u.tempInvoicedate,
+                                        Tempdatefrom = u.Tempdatefrom,
+                                        TempdateTo=u.TempdateTo,
                                         total = u.total,
                                         fullsurchargetax = u.fullsurchargetax,
                                         fullsurchargetaxtotal = u.fullsurchargetaxtotal,
@@ -71,8 +75,9 @@ namespace EmpBilling.Controllers
                                         servicetaxtotal = u.servicetaxtotal,
                                         Customer_Id = u.Customer_Id,
                                         netamount = u.netamount,
-                                        paid = u.paid,
-                                        discountamount = u.netamount - u.paid
+                                        paid = u.paid??0,
+                                        discountamount = u.netamount - (u.paid ?? 0),
+
 
                                     }).
                                       ToList().Where(x => DateTime.Compare(x.invoicedate.Value.Date, fromdate.Value.Date) >= 0 && DateTime.Compare(x.invoicedate.Value.Date, todate.Value.Date) <= 0 && x.discountamount <= 0 && (x.Customer_Id == Custid || Custid == ""))
@@ -87,6 +92,9 @@ namespace EmpBilling.Controllers
                                         invoiceno = u.invoiceno,
                                         periodfrom = u.periodfrom,
                                         periodto = u.periodto,
+                                        tempInvoicedate = u.tempInvoicedate,
+                                        Tempdatefrom = u.Tempdatefrom,
+                                        TempdateTo = u.TempdateTo,
                                         total = u.total,
                                         fullsurchargetax = u.fullsurchargetax,
                                         fullsurchargetaxtotal = u.fullsurchargetaxtotal,
@@ -94,8 +102,8 @@ namespace EmpBilling.Controllers
                                         servicetaxtotal = u.servicetaxtotal,
                                         Customer_Id = u.Customer_Id,
                                         netamount = u.netamount,
-                                        paid = u.paid,
-                                        discountamount = u.netamount - u.paid
+                                        paid = u.paid??0,
+                                        discountamount = u.netamount - (u.paid ?? 0)
 
                                     }).
                                        ToList().Where(x => DateTime.Compare(x.invoicedate.Value.Date, fromdate.Value.Date) >= 0 && DateTime.Compare(x.invoicedate.Value.Date, todate.Value.Date) <= 0 && (x.discountamount > 0 || x.paid == null) && (x.Customer_Id == Custid || Custid == ""))
@@ -118,6 +126,9 @@ namespace EmpBilling.Controllers
                                         invoiceno = u.invoiceno,
                                         periodfrom = u.periodfrom,
                                         periodto = u.periodto,
+                                        tempInvoicedate = u.tempInvoicedate,
+                                        Tempdatefrom = u.Tempdatefrom,
+                                        TempdateTo = u.TempdateTo,
                                         total = u.total,
                                         fullsurchargetax = u.fullsurchargetax,
                                         fullsurchargetaxtotal = u.fullsurchargetaxtotal,
@@ -125,8 +136,8 @@ namespace EmpBilling.Controllers
                                         servicetaxtotal = u.servicetaxtotal,
                                         Customer_Id = u.Customer_Id,
                                         netamount = u.netamount,
-                                        paid = u.paid,
-                                        discountamount = u.netamount - u.paid
+                                        paid = u.paid ?? 0,
+                                        discountamount = u.netamount - (u.paid??0)
 
                                     }).
                           ToList().Where(x => DateTime.Compare(x.invoicedate.Value.Date, fromdate.Value.Date) >= 0 && DateTime.Compare(x.invoicedate.Value.Date, todate.Value.Date) <= 0 && (x.Customer_Id == Custid || Custid == ""))
@@ -136,10 +147,27 @@ namespace EmpBilling.Controllers
 
 
 
-            //if (Submit == "Export to Excel")
-            //{
-            //    ExportToExcelAll.ExportToExcelAdmin(collectionAmount);
-            //}
+            if (Submit == "Export to Excel")
+            {
+                ExportToExcelAll.ExportToExcelAdmin(collectionAmount.Select(x => new
+                {
+                    CustomerId = x.Customer_Id,
+                    InvoiceNo = x.invoiceno,
+                    InvoiceDate = x.invoicedate.Value.ToString("dd/MM/yyyy"),
+                    PeriodFrom = x.periodfrom.Value.ToString("dd/MM/yyyy"),
+                    PeriodTo = x.periodto.Value.ToString("dd/MM/yyyy"),
+                    Total = x.total,
+                    FuelSurChargeTax = x.fullsurchargetax,
+                    x.fullsurchargetaxtotal,
+                    x.servicetax,
+                    x.servicetaxtotal,
+                    x.netamount,
+                    Paid = x.paid ?? 0,
+                    Balance = x.discountamount
+
+                }));
+
+            }
 
 
 

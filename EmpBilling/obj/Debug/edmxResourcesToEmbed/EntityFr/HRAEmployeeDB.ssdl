@@ -90,6 +90,8 @@
     <Property Name="Password" Type="nvarchar" MaxLength="20" />
     <Property Name="Username" Type="varchar" MaxLength="200" />
     <Property Name="G_Docket" Type="float" />
+    <Property Name="DueDays" Type="bigint" />
+    <Property Name="ClientCode" Type="varchar" MaxLength="30" />
   </EntityType>
   <EntityType Name="Complaint">
     <Key>
@@ -615,6 +617,7 @@
     <Property Name="Datetime_Cons" Type="datetime" />
     <Property Name="Paid_Amount" Type="real" />
     <Property Name="BarcodeImage" Type="nvarchar" MaxLength="800" />
+    <Property Name="ProviderName" Type="varchar" MaxLength="100" />
   </EntityType>
   <EntityType Name="RedeemOtp">
     <Key>
@@ -765,6 +768,12 @@
     <Property Name="Sender" Type="varchar(max)" />
     <Property Name="Receiver" Type="varchar(max)" />
     <Property Name="compaddress" Type="varchar" MaxLength="200" />
+    <Property Name="ProviderName" Type="varchar" MaxLength="100" />
+    <Property Name="Tracking_Number" Type="varchar" MaxLength="100" />
+    <Property Name="POD_Number" Type="varchar" MaxLength="100" />
+    <Property Name="PickUpType" Type="varchar" MaxLength="40" />
+    <Property Name="PickUpLocation" Type="varchar" MaxLength="100" />
+    <Property Name="PODCopyPath" Type="varchar" MaxLength="500" />
   </EntityType>
   <EntityType Name="Users">
     <Key>
@@ -856,6 +865,12 @@ warning 6002: The table/view 'db_a92afa_hralogistic.dbo.TransactionView' does no
     <Property Name="receivedby" Type="varchar" MaxLength="100" />
     <Property Name="remarks" Type="varchar" MaxLength="100" />
     <Property Name="tempdeliveredtime" Type="varchar" MaxLength="100" />
+    <Property Name="ProviderName" Type="varchar" MaxLength="100" />
+    <Property Name="Tracking_Number" Type="varchar" MaxLength="100" />
+    <Property Name="POD_Number" Type="varchar" MaxLength="100" />
+    <Property Name="PickUpLocation" Type="varchar" MaxLength="100" />
+    <Property Name="PickUpType" Type="varchar" MaxLength="40" />
+    <Property Name="PODCopyPath" Type="varchar" MaxLength="500" />
   </EntityType>
   <Association Name="Emp_Fk">
     <End Role="Franchisee" Type="Self.Franchisee" Multiplicity="0..1" />
@@ -1609,7 +1624,13 @@ warning 6035: The relationship 'FK_consignment_no' has columns that are not part
     [TransactionView].[tempdelivereddate] AS [tempdelivereddate], 
     [TransactionView].[receivedby] AS [receivedby], 
     [TransactionView].[remarks] AS [remarks], 
-    [TransactionView].[tempdeliveredtime] AS [tempdeliveredtime]
+    [TransactionView].[tempdeliveredtime] AS [tempdeliveredtime], 
+    [TransactionView].[ProviderName] AS [ProviderName], 
+    [TransactionView].[Tracking_Number] AS [Tracking_Number], 
+    [TransactionView].[POD_Number] AS [POD_Number], 
+    [TransactionView].[PickUpLocation] AS [PickUpLocation], 
+    [TransactionView].[PickUpType] AS [PickUpType], 
+    [TransactionView].[PODCopyPath] AS [PODCopyPath]
     FROM [dbo].[TransactionView] AS [TransactionView]</DefiningQuery>
     </EntitySet>
     <AssociationSet Name="Emp_Fk" Association="Self.Emp_Fk">

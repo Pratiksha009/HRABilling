@@ -68,6 +68,8 @@
     <EntitySetMapping Name="Companies">
       <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.Company">
         <MappingFragment StoreEntitySet="Company">
+          <ScalarProperty Name="ClientCode" ColumnName="ClientCode" />
+          <ScalarProperty Name="DueDays" ColumnName="DueDays" />
           <ScalarProperty Name="Company_Id" ColumnName="Company_Id" />
           <ScalarProperty Name="c_id" ColumnName="c_id" />
           <ScalarProperty Name="Phone" ColumnName="Phone" />
@@ -591,6 +593,7 @@
     <EntitySetMapping Name="Receipt_details">
       <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.Receipt_details">
         <MappingFragment StoreEntitySet="Receipt_details">
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
           <ScalarProperty Name="Receipt_Id" ColumnName="Receipt_Id" />
           <ScalarProperty Name="Consignment_No" ColumnName="Consignment_No" />
           <ScalarProperty Name="Destination" ColumnName="Destination" />
@@ -765,6 +768,12 @@
     <EntitySetMapping Name="Transactions">
       <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.Transaction">
         <MappingFragment StoreEntitySet="Transactions">
+          <ScalarProperty Name="PODCopyPath" ColumnName="PODCopyPath" />
+          <ScalarProperty Name="PickUpLocation" ColumnName="PickUpLocation" />
+          <ScalarProperty Name="PickUpType" ColumnName="PickUpType" />
+          <ScalarProperty Name="POD_Number" ColumnName="POD_Number" />
+          <ScalarProperty Name="Tracking_Number" ColumnName="Tracking_Number" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
           <ScalarProperty Name="T_id" ColumnName="T_id" />
           <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
           <ScalarProperty Name="booking_date" ColumnName="booking_date" />
@@ -854,6 +863,12 @@
     <EntitySetMapping Name="TransactionViews">
       <EntityTypeMapping TypeName="db_a92afa_hralogisticModel.TransactionView">
         <MappingFragment StoreEntitySet="TransactionView">
+          <ScalarProperty Name="PODCopyPath" ColumnName="PODCopyPath" />
+          <ScalarProperty Name="PickUpType" ColumnName="PickUpType" />
+          <ScalarProperty Name="PickUpLocation" ColumnName="PickUpLocation" />
+          <ScalarProperty Name="POD_Number" ColumnName="POD_Number" />
+          <ScalarProperty Name="Tracking_Number" ColumnName="Tracking_Number" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
           <ScalarProperty Name="T_id" ColumnName="T_id" />
           <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
           <ScalarProperty Name="booking_date" ColumnName="booking_date" />

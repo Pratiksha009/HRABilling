@@ -2,10 +2,10 @@
 @model IEnumerable<EmpBilling.EntityFr.TransactionView>
 
 @{
-                /**/
+    /**/
 
-                ViewBag.Title = "Checkbookinglist";
-                Layout = "~/Views/Shared/EmpLayout.cshtml";
+    ViewBag.Title = "Checkbookinglist";
+    Layout = "~/Views/Shared/EmpLayout.cshtml";
 }
 
 
@@ -97,7 +97,7 @@
                                     <th>
                                         Weight
                                     </th>
-                                     <th>
+                                    <th>
                                         Quantity
                                     </th>
                                     <th>
@@ -134,65 +134,85 @@
                                     <th>
                                         Total
                                     </th>
+                                    <th>PickUp Type</th>
+                                    <th>PickUp Location</th>
+                                    <th>POD Copy</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @{ int i = 1;
                                     foreach (var item in Model)
                                     {
-                                                                <tr>
+                                        <tr>
 
-                                                                    <td>
-                                                                        @i
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Consignment_no)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Quanntity)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.chargable_weight)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Name)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Pincode)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.compaddress)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Type_t)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Mode)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Amount)
-                                                                    </td>
-                                                                    <td>
-                                                                        @item.booking_date.Value.ToString("dd/MM/yyyy")
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Insurance)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.BillAmount)
-                                                                    </td>
+                                            <td>
+                                                @i
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Consignment_no)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Quanntity)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.chargable_weight)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Pincode)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.compaddress)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Type_t)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Mode)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Amount)
+                                            </td>
+                                            <td>
+                                                @item.booking_date.Value.ToString("dd/MM/yyyy")
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Insurance)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.BillAmount)
+                                            </td>
 
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Percentage)
-                                                                    </td>
-                                                                    <td>
-                                                                        @Html.DisplayFor(modelItem => item.Risksurcharge)
-                                                                    </td>
-                                                                    <td>
-                                                                        @(item.Amount + (item.Risksurcharge ?? 0) + (item.loadingcharge ?? 0))
-                                                                    </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Percentage)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Risksurcharge)
+                                            </td>
+                                            <td>
+                                                @(item.Amount + (item.Risksurcharge ?? 0) + (item.loadingcharge ?? 0))
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PickUpType)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PickUpLocation)
+                                            </td>
+                                            <td>
+                                                @if (Model != null && !string.IsNullOrEmpty(item.PODCopyPath))
+                                                {
+                                                    <a href="@item.PODCopyPath" class="btn btn-success pull-right" target="_blank">View POD</a>
 
-                                                                </tr>
+                                                }
+                                                else
+                                                {
+                                                    <p style="color:red">Not Uploaded</p>
+                                                }
+
+                                            </td>
+                                        </tr>
 
                                         i++;
                                     }
@@ -307,4 +327,17 @@
         margin-bottom: 5px;
     }
 </style>
+
+<script>
+    $(function () {
+        $('#check-booking-list').dataTable({
+            "bPaginate": true,
+            "bLengthChange": true,
+            "bFilter": true,
+            "bSort": true,
+            "bInfo": false,
+            "bAutoWidth": false
+        });
+    });
+</script>
 

@@ -58,6 +58,12 @@ namespace EmpBilling.EntityFr
         public string Sender { get; set; }
         public string Receiver { get; set; }
         public string compaddress { get; set; }
+        public string ProviderName { get; set; }
+        public string Tracking_Number { get; set; }
+        public string POD_Number { get; set; }
+        public string PickUpType { get; set; }
+        public string PickUpLocation { get; set; }
+        public string PODCopyPath { get; set; }
     
         public virtual Company Company { get; set; }
         public virtual Franchisee Franchisee { get; set; }

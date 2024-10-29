@@ -3,7 +3,119 @@
   "WorkspaceRootPath": "D:\\DTDC New Live Project\\HRA-EmpBilling\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|d:\\dtdc new live project\\hra-empbilling\\empbilling\\views\\ratemaster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\cash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\cash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|d:\\dtdc new live project\\hra-empbilling\\empbilling\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DTDC New Live Project\\HRA-EmpBilling\\packages\\Microsoft.SqlServer.Types.11.0.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\Microsoft.SqlServer.Types.11.0.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\rdlc\\newprintinvoice.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\rdlc\\newprintinvoice.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\printinvoice.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\printinvoice.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\models\\exporttoexcelall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\models\\exporttoexcelall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\invo.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\invo.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\comdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\comdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\reports\\creditorsreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\reports\\creditorsreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\invoice\\viewinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\invoice\\viewinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\booking\\checkbookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\booking\\checkbookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\receipt_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\receipt_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\ratemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\ratemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\booking\\uploadpodcopy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\booking\\uploadpodcopy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\shared\\emplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\shared\\emplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\booking\\companylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\booking\\companylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\cheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\cheque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\booking\\trsearchtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\booking\\trsearchtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\models\\uploadpodcopymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\models\\uploadpodcopymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\models\\getlocaltime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\models\\getlocaltime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\hraemployeedb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\hraemployeedb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\sector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\sector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\addcodamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\addcodamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\ratemaster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\ratemaster\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -13,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\reports\\destinations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -41,18 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\emp\\emplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\emp\\emplogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\views\\shared\\emplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\views\\shared\\emplayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|D:\\DTDC New Live Project\\HRA-EmpBilling\\empbilling\\entityfr\\hraemployeedb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{95687ED5-845C-46E0-AE79-F83D2ECD1C6D}|EmpBilling\\EmpBilling.csproj|solutionrelative:empbilling\\entityfr\\hraemployeedb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,72 +158,371 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "readme.txt",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\packages\\Microsoft.SqlServer.Types.11.0.0\\readme.txt",
+              "RelativeDocumentMoniker": "packages\\Microsoft.SqlServer.Types.11.0.0\\readme.txt",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\packages\\Microsoft.SqlServer.Types.11.0.0\\readme.txt",
+              "RelativeToolTip": "packages\\Microsoft.SqlServer.Types.11.0.0\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-07T11:28:13.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UploadPODCopy.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\UploadPODCopy.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Booking\\UploadPODCopy.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\UploadPODCopy.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Booking\\UploadPODCopy.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T07:39:15.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TrSearchTable.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\TrSearchTable.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Booking\\TrSearchTable.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\TrSearchTable.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Booking\\TrSearchTable.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T07:39:14.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Cash.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Cash.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\Cash.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Cash.cs",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\Cash.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:37:32.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "EmpBilling\\Controllers\\ReportsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:59:42.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\InvoiceController.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "EmpBilling\\Controllers\\InvoiceController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAkwK4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:11:11.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewPrintInvoice.rdlc [Design]",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Rdlc\\NewPrintInvoice.rdlc",
+              "RelativeDocumentMoniker": "EmpBilling\\Rdlc\\NewPrintInvoice.rdlc",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Rdlc\\NewPrintInvoice.rdlc [Design]",
+              "RelativeToolTip": "EmpBilling\\Rdlc\\NewPrintInvoice.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-10-07T11:10:02.14Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExportToExcelAll.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\ExportToExcelAll.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Models\\ExportToExcelAll.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\ExportToExcelAll.cs",
+              "RelativeToolTip": "EmpBilling\\Models\\ExportToExcelAll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:45:40.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comdataset.xsd",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Comdataset.xsd",
+              "RelativeDocumentMoniker": "EmpBilling\\Comdataset.xsd",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Comdataset.xsd",
+              "RelativeToolTip": "EmpBilling\\Comdataset.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-10-07T10:58:55.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Checkbookinglist.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\Checkbookinglist.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Booking\\Checkbookinglist.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\Checkbookinglist.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Booking\\Checkbookinglist.cshtml",
+              "ViewState": "AQIAADIBAAAAAAAAAAAiwFIBAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:03:59.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrintInvoice.xsd",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\PrintInvoice.xsd",
+              "RelativeDocumentMoniker": "EmpBilling\\PrintInvoice.xsd",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\PrintInvoice.xsd",
+              "RelativeToolTip": "EmpBilling\\PrintInvoice.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-10-07T10:56:37.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "invo.xsd",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\invo.xsd",
+              "RelativeDocumentMoniker": "EmpBilling\\invo.xsd",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\invo.xsd",
+              "RelativeToolTip": "EmpBilling\\invo.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-10-07T11:08:03.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewInvoice.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Invoice\\ViewInvoice.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Invoice\\ViewInvoice.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Invoice\\ViewInvoice.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Invoice\\ViewInvoice.cshtml",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAALcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:10:56.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Company.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\Company.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Company.cs",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\Company.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:08:21.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreditorsReport.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Reports\\CreditorsReport.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Reports\\CreditorsReport.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Reports\\CreditorsReport.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Reports\\CreditorsReport.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T08:36:25.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RatemasterController.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\RatemasterController.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\RatemasterController.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\RatemasterController.cs",
+              "RelativeToolTip": "EmpBilling\\Controllers\\RatemasterController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:08:29.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Receipt_details.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Receipt_details.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\Receipt_details.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Receipt_details.cs",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\Receipt_details.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:08:37.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cheque.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Cheque.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\Cheque.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Cheque.cs",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\Cheque.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:37:31.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Sector.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Sector.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\Sector.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Sector.cs",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\Sector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:37:27.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Transaction.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\Transaction.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\Transaction.cs",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\Transaction.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:37:24.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmpLayout.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAALMAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T10:59:49.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\BookingController.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "EmpBilling\\Controllers\\BookingController.cs",
+              "ViewState": "AQIAAEMCAAAAAAAAAAAwwB8CAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:56:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetLocalTime.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\GetLocalTime.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Models\\GetLocalTime.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\GetLocalTime.cs",
+              "RelativeToolTip": "EmpBilling\\Models\\GetLocalTime.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:45:44.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Models\\Login.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\Login.cs",
+              "RelativeToolTip": "EmpBilling\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:45:48.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UploadPODCopyMOdel.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\UploadPODCopyMOdel.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Models\\UploadPODCopyMOdel.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Models\\UploadPODCopyMOdel.cs",
+              "RelativeToolTip": "EmpBilling\\Models\\UploadPODCopyMOdel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:52:23.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompanyList.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\CompanyList.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Booking\\CompanyList.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Booking\\CompanyList.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Booking\\CompanyList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T07:54:13.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "addcodamount.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\addcodamount.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\addcodamount.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\addcodamount.cs",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\addcodamount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:37:09.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Ratemaster\\Index.cshtml",
               "RelativeDocumentMoniker": "EmpBilling\\Views\\Ratemaster\\Index.cshtml",
               "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Ratemaster\\Index.cshtml",
               "RelativeToolTip": "EmpBilling\\Views\\Ratemaster\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-26T12:14:37.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DestinationsController.cs",
-              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\DestinationsController.cs",
-              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\DestinationsController.cs",
-              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\DestinationsController.cs",
-              "RelativeToolTip": "EmpBilling\\Controllers\\DestinationsController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCMAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T07:04:18.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\ReportsController.cs",
-              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "EmpBilling\\Controllers\\ReportsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T06:59:42.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Destinations.cshtml",
-              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Reports\\Destinations.cshtml",
-              "RelativeDocumentMoniker": "EmpBilling\\Views\\Reports\\Destinations.cshtml",
-              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Reports\\Destinations.cshtml",
-              "RelativeToolTip": "EmpBilling\\Views\\Reports\\Destinations.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAABoAAABdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T06:59:32.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_all-skins.min.css",
-              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
-              "RelativeDocumentMoniker": "EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
-              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
-              "RelativeToolTip": "EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACUVgAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-28T13:10:55.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 29,
               "Title": "WalletPoint.cs",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\WalletPoint.cs",
               "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\WalletPoint.cs",
@@ -135,11 +530,12 @@
               "RelativeToolTip": "EmpBilling\\EntityFr\\WalletPoint.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T12:46:15.427Z"
+              "WhenOpened": "2024-08-28T12:46:15.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 35,
               "Title": "AdminLTE.css",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\admin-lte\\css\\AdminLTE.css",
               "RelativeDocumentMoniker": "EmpBilling\\admin-lte\\css\\AdminLTE.css",
@@ -147,23 +543,50 @@
               "RelativeToolTip": "EmpBilling\\admin-lte\\css\\AdminLTE.css",
               "ViewState": "AQIAAG0TAAAAAAAAAAAewH4TAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-28T11:58:03.326Z"
+              "WhenOpened": "2024-08-28T11:58:03.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmpLayout.cshtml",
-              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
-              "RelativeDocumentMoniker": "EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
-              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
-              "RelativeToolTip": "EmpBilling\\Views\\Shared\\EmpLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 34,
+              "Title": "_all-skins.min.css",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
+              "RelativeDocumentMoniker": "EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
+              "RelativeToolTip": "EmpBilling\\admin-lte\\css\\skins\\_all-skins.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACUVgAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-28T13:10:55.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HRAEmployeeDB.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\HRAEmployeeDB.edmx",
+              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\HRAEmployeeDB.edmx",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\HRAEmployeeDB.edmx [Diagram1]",
+              "RelativeToolTip": "EmpBilling\\EntityFr\\HRAEmployeeDB.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-08-28T10:53:44.094Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Destinations.cshtml",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Reports\\Destinations.cshtml",
+              "RelativeDocumentMoniker": "EmpBilling\\Views\\Reports\\Destinations.cshtml",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Reports\\Destinations.cshtml",
+              "RelativeToolTip": "EmpBilling\\Views\\Reports\\Destinations.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAABoAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T10:59:49.078Z"
+              "WhenOpened": "2024-09-23T06:59:32.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 36,
               "Title": "EmpLogin.cshtml",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Views\\Emp\\EmpLogin.cshtml",
               "RelativeDocumentMoniker": "EmpBilling\\Views\\Emp\\EmpLogin.cshtml",
@@ -171,11 +594,12 @@
               "RelativeToolTip": "EmpBilling\\Views\\Emp\\EmpLogin.cshtml",
               "ViewState": "AQIAAF0AAAAAAAAAAAAAAGUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T10:58:59.631Z"
+              "WhenOpened": "2024-08-28T10:58:59.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 33,
               "Title": "CalculationController.cs",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\CalculationController.cs",
               "RelativeDocumentMoniker": "EmpBilling\\Controllers\\CalculationController.cs",
@@ -183,34 +607,25 @@
               "RelativeToolTip": "EmpBilling\\Controllers\\CalculationController.cs",
               "ViewState": "AQIAAGgAAAAAAAAAAAAlwIYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T10:56:41.156Z"
+              "WhenOpened": "2024-08-28T10:56:41.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\BookingController.cs",
-              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "EmpBilling\\Controllers\\BookingController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 30,
+              "Title": "DestinationsController.cs",
+              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\DestinationsController.cs",
+              "RelativeDocumentMoniker": "EmpBilling\\Controllers\\DestinationsController.cs",
+              "ToolTip": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Controllers\\DestinationsController.cs",
+              "RelativeToolTip": "EmpBilling\\Controllers\\DestinationsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T10:56:37.035Z"
+              "WhenOpened": "2024-09-23T07:04:18.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HRAEmployeeDB.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\EntityFr\\HRAEmployeeDB.edmx",
-              "RelativeDocumentMoniker": "EmpBilling\\EntityFr\\HRAEmployeeDB.edmx",
-              "ToolTip": "D:\\LiveProject\\New DTDC Projects\\HRALogostic\\Billing\\EmpBilling\\EntityFr\\HRAEmployeeDB.edmx [Diagram1]",
-              "RelativeToolTip": "..\\..\\LiveProject\\New DTDC Projects\\HRALogostic\\Billing\\EmpBilling\\EntityFr\\HRAEmployeeDB.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-08-28T10:53:44.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 32,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\DTDC New Live Project\\HRA-EmpBilling\\EmpBilling\\Web.config",
               "RelativeDocumentMoniker": "EmpBilling\\Web.config",
